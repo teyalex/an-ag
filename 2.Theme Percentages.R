@@ -1,7 +1,7 @@
 ## This code was adapted by Alex Tey with the Center for Biological Diversity
   ## from code published by Faunalytics in collaboration with Sentient Media.
 
-## View the original code and analysis here: LINK TKTK.
+## View the original code and analysis here: https://osf.io/xmwgz/files/osfstorage
 
 ## Comments added in the Center's version are set off by double octothorpes (##)
   ## and a space, while comments from the original Faunalytics version are set off
@@ -96,7 +96,7 @@ code.counts <- code.counts %>%
                               which accounts for a similar share of global emissions, was mentioned 39% of the time.",
                              100),
          caption = "Adapted from an analysis by Faunalytics and Sentient Media.
-                    Methodology at github.com/teyalex/TKTKTK.",
+                    Methodology at github.com/teyalex/an-ag.",
          x = element_blank(),
          y = element_blank(),
          fill = element_blank()) +
@@ -113,8 +113,7 @@ code.counts <- code.counts %>%
           axis.text.y = element_text(size = 15, family = "Oswald"),
           panel.grid.major.y = element_blank(),
           panel.grid.major.x = element_blank(),
-          panel.grid.minor.x = element_blank()
-          )
+          panel.grid.minor.x = element_blank())
   
   ggsave("mention_plot.jpg", plot = mentions, width = 10.8, height = 7.2, units = "in")
 
