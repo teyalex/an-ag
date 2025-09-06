@@ -1,0 +1,85 @@
+﻿Most Mentioned Industries
+317 documents  for All Dates
+
+Industry,Document Count
+Agriculture,18
+Cattle Farming,15
+Farming,11
+Dairy Cattle Farming,11
+Energy,11
+Vegetarian Food Products,8
+Food/Beverages,7
+Livestock Farming,7
+Environment/Waste Management,6
+Oil,6
+Meat Processing,5
+Waste Management/Recycling Services,5
+Alternative Fuel Vehicles,4
+Fossil Fuels,4
+Oil/Gas,4
+Natural Gas Extraction,3
+Renewable Energy Generation,3
+Dairy Products,3
+Automotive,3
+Hog/Pig Farming,2
+Sheep/Goat Farming,2
+Oil/Gas Upstream Operations,2
+Electricity/Gas Utilities,2
+Nuclear Power Generation,2
+Electric Power Distribution,2
+Vaccines,2
+Passenger Cars,2
+Satellites,2
+Pet Food,2
+Clothing,2
+Space Transport,2
+Business/Consumer Services,2
+Banking/Credit,2
+Clothing/Textiles,2
+Consumer Goods,2
+Food Products,2
+Fracking Services,2
+Natural Gas,2
+Wind Energy,2
+Waste-to-Energy Generation,2
+Dry Pea/Bean Farming,1
+Aquaculture,1
+Cement/Ready-mix Concrete,1
+Chemicals,1
+Pharmaceuticals,1
+Heating/Cooling/Air Treatment Equipment,1
+Firearms,1
+Computers/Consumer Electronics,1
+Software,1
+Artificial Intelligence Technologies,1
+Semiconductors,1
+Mixed Retailing,1
+Lodgings/Restaurants/Bars,1
+Restaurants/Caterers,1
+Healthcare/Life Sciences,1
+Aerospace/Defense,1
+Carbon Capture/Storage,1
+Chocolate/Confectionery,1
+Computer Hardware,1
+Geothermal Energy,1
+Leisure/Arts/Hospitality,1
+Media/Entertainment,1
+Organic Farming,1
+Retail,1
+Solar Energy,1
+Technology,1
+
+
+Search Summary,
+Text,"la=en and date after 20210801 AND date before 20250731 and wc>250 and rst=USA and sn=(ABC Network or American Banker or BBC or Baltimore Sun or Barron's or Bernews or Business Insider or CNBC Network or CNN or Chicago Tribune or Denver Post or Detroit Free Press or Dow Jones Newswires or Forbes or Fox News or MSNBC Network or MarketWatch or Milwaukee Journal Sentinel or New York Daily News or New York Post or Newsweek or Orlando Sentinel or Pittsburgh Post-Gazette or South Florida Sun-Sentinel or St. Louis Post-Dispatch or Star-Tribune or Tampa Bay Times or The Arizona Republic or The Atlanta Journal-Constitution or The Atlantic or The Boston Globe or The Christian Science Monitor or The Enquirer or The Hartford Courant or The Indianapolis Star or The New York Times or The New Yorker or The Tennessean or The Wall Street Journal or USA Today or Washington Post) and (ns=GCLIMT and ((climate /n2/ chang*) or (climate /n2/ crisis) or (climate /n2/ impact) or ""global warming"" or ((atleast2 climate or atleast2 warming or atleast2 environment*) or hlp=carbon (neutrality or capture or emissions) or atleast2 greenhouse$ or atleast3 decarboni*))) not (update or Briefing or summary or letters or correction* or Daybook or ""market talk"" or ""roundup"" or ""press release"" or ""results announcement"" or shortage) and (((meat or dairy or livestock or cow or cows or cattle or beef or sheep or lamb or chicken or pork) near3 (consum* or eat* or methane or carbon or CO2 or emissions)) or ((meat near2 industr*) or (livestock near2 industr*)) or (""animal agriculture"" or ""factory farm*""))"
+Date,All Dates
+Source,All Sources
+Author,All Authors
+Company,All Companies
+Subject,All Subjects
+Industry,All Industries
+Region,All Regions
+Language,All Languages
+Results Found,317
+Timestamp,28 August 2025 16:20
+"© 2025 Factiva, Inc.  All rights reserved."
