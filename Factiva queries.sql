@@ -1,8 +1,7 @@
 -- Factiva queries
 
-/* despite the file extension, this isn't SQL code! the queries are pasted into a Factiva search as plain text.
-I just changed the file extension to SQL here so that the Boolean operators and numbers are displayed in colored
-text, making it all easier to read. */
+/* despite the file extension, this isn't SQL code: I just changed the file extension to .sql so that the Boolean operators and numbers are displayed in colored
+text, making it all easier to read. the queries are pasted into a Factiva search as plain text. */
 
 
 -- Repeating Faunalytics/Sentient study
