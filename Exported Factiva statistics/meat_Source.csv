@@ -1,0 +1,44 @@
+﻿Most Mentioned Sources
+301 documents  for All Dates
+
+Source,Document Count,Circulation,Unique Visitors/Month,Publisher,Source Website
+The New York Times - All sources,74,,,,
+Washington Post - All sources,64,,,,
+The Wall Street Journal - All sources,26,,,,
+The Boston Globe - All sources,25,,,,
+USA Today - All sources,18,,,,
+Orlando Sentinel - All sources,16,,,,
+Business Insider - All sources,11,,,,
+Baltimore Sun - All sources,10,,,,
+South Florida Sun-Sentinel - All sources,8,,,,
+Star-Tribune (Minneapolis-St. Paul),7,"126,942",,The Star Tribune Company,http://www.startribune.com
+"The Hartford Courant (Connecticut, U.S.)",6,"33,992",,Tribune Content Agency,http://www.courant.com
+MarketWatch - All sources,6,,,,
+Milwaukee Journal Sentinel,4,"76,571",,"Gannett Co., Inc.",http://www.jsonline.com
+Pittsburgh Post-Gazette - All sources,4,,,,
+The Atlantic (U.S.),3,,,"The Atlantic Monthly Group, LLC",http://www.theatlantic.com
+The Arizona Republic (Phoenix),3,"97,920",,"Gannett Co., Inc.",http://www.azcentral.com
+New York Post - All sources,3,,,,
+St. Louis Post-Dispatch,3,"92,315",,St. Louis Post-Dispatch,http://www.stltoday.com
+The Atlanta Journal-Constitution - All sources,2,,,,
+New York Daily News - All sources,2,,,,
+The New Yorker - All sources,2,,,,
+ABC Network - All sources,1,,,,
+American Banker - All sources,1,,,,
+The Indianapolis Star - All sources,1,,,,
+"The Tennessean (Nashville, U.S.)",1,"25,264",,"Gannett Co., Inc.",http://tennessean.com
+
+
+Search Summary,
+Text,"la=en and date after 20220630 AND date before 20250801 and wc>250 and rst=USA and rst=tmnbus not (update or Briefing or summary or letters or correction* or Daybook or ""market talk"" or ""roundup"" or ""press release"" or ""results announcement"" or shortage) and (ns=GCLIMT and ((climate /n2/ chang*) or (climate /n2/ crisis) or (climate /n2/ impact) or ""global warming"" or ((atleast2 climate or atleast2 warming or atleast2 environment*) or hlp=carbon (neutrality or capture or emissions) or atleast2 greenhouse$ or atleast3 decarboni*))) and (((meat or dairy or livestock or cow or cows or cattle or beef or sheep or lamb or chicken or hog* or pig* or pork) near3 (rais* or consum* or eat* or methane or carbon or CO2 or emissions)) or (atleast3 meat or atleast3 dairy or atleast3 livestock or atleast3 cow or atleast3 cows or atleast3 cattle or atleast3 beef or atleast3 sheep or atleast3 lamb or atleast3 chicken or atleast3 poultry or atleast3 hog or atleast3 hogs or atleast3 pig or atleast3 pigs or atleast3 pork) or ((meat near2 industr*) or (livestock near2 industr*)) or (""animal agriculture"" or ""factory farm*""))"
+Date,All Dates
+Source,All Sources
+Author,All Authors
+Company,All Companies
+Subject,All Subjects
+Industry,All Industries
+Region,All Regions
+Language,All Languages
+Results Found,301
+Timestamp,4 October 2025 18:02
+"© 2025 Factiva, Inc.  All rights reserved."

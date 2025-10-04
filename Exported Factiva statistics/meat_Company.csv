@@ -1,0 +1,77 @@
+﻿Most Mentioned Companies
+301 documents  for All Dates
+
+Company,Document Count
+European Union,6
+US Securities and Exchange Commission,6
+United Nations,4
+Environmental Defense Fund,3
+Environmental Protection Agency,3
+Tyson Foods Inc,3
+Climeworks AG,2
+Colorado State University,2
+Environmental Working Group,2
+Exxon Mobil Corporation,2
+U.S. Fish and Wildlife Service,2
+Food and Agriculture Organization of the United Nations,2
+Grupo JBS SA,2
+Harvard University,2
+ifo Institute,2
+International Energy Agency,2
+"Greentown Labs, Inc.",2
+Physicians Committee for Responsible Medicine,2
+Starbucks Corporation,2
+Stanford University,2
+University of Gothenburg,2
+The Breakthrough Institute,2
+University of Zurich,2
+University of California San Diego,2
+"University of California, Davis",2
+Danone SA,1
+City of Edinburgh Council,1
+"Cargill, Inc.",1
+Center for Biological Diversity,1
+Target Corporation,1
+Morgan Stanley,1
+Helly Hansen AS,1
+"Newlight Technologies, Inc.",1
+Hormel Foods Corporation,1
+International Monetary Fund,1
+"Origin Materials, Inc.",1
+Minnesota Pollution Control Agency,1
+Net-Zero Banking Alliance,1
+Earthjustice,1
+Royal Society for the Protection of Birds,1
+Space Exploration Technologies Corp.,1
+Stanford Graduate School of Business,1
+Allbirds Inc,1
+Tufts University,1
+Tennessee Valley Authority,1
+The World Bank,1
+United Nations International Children's Emergency Fund,1
+United Nations Development Programme,1
+University of Arizona,1
+"University of California, Santa Barbara",1
+University of Utah,1
+United States Department of the Army,1
+United States Department of Energy,1
+Energy Information Administration,1
+Visa Inc.,1
+World Economic Forum,1
+"Watsco, Inc.",1
+Yale University,1
+
+
+Search Summary,
+Text,"la=en and date after 20220630 AND date before 20250801 and wc>250 and rst=USA and rst=tmnbus not (update or Briefing or summary or letters or correction* or Daybook or ""market talk"" or ""roundup"" or ""press release"" or ""results announcement"" or shortage) and (ns=GCLIMT and ((climate /n2/ chang*) or (climate /n2/ crisis) or (climate /n2/ impact) or ""global warming"" or ((atleast2 climate or atleast2 warming or atleast2 environment*) or hlp=carbon (neutrality or capture or emissions) or atleast2 greenhouse$ or atleast3 decarboni*))) and (((meat or dairy or livestock or cow or cows or cattle or beef or sheep or lamb or chicken or hog* or pig* or pork) near3 (rais* or consum* or eat* or methane or carbon or CO2 or emissions)) or (atleast3 meat or atleast3 dairy or atleast3 livestock or atleast3 cow or atleast3 cows or atleast3 cattle or atleast3 beef or atleast3 sheep or atleast3 lamb or atleast3 chicken or atleast3 poultry or atleast3 hog or atleast3 hogs or atleast3 pig or atleast3 pigs or atleast3 pork) or ((meat near2 industr*) or (livestock near2 industr*)) or (""animal agriculture"" or ""factory farm*""))"
+Date,All Dates
+Source,All Sources
+Author,All Authors
+Company,All Companies
+Subject,All Subjects
+Industry,All Industries
+Region,All Regions
+Language,All Languages
+Results Found,301
+Timestamp,4 October 2025 18:02
+"© 2025 Factiva, Inc.  All rights reserved."
