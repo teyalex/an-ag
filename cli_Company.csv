@@ -1,0 +1,119 @@
+﻿Most Mentioned Companies
+9374 documents  for All Dates
+
+Company,Document Count
+United Nations,294
+Environmental Protection Agency,276
+National Oceanic and Atmospheric Administration,148
+European Union,99
+Exxon Mobil Corporation,71
+International Energy Agency,64
+The World Bank,57
+Intergovernmental Panel on Climate Change,54
+Board of Governors of the Federal Reserve System,52
+General Assembly of the United Nations,48
+Supreme Court of the United States,44
+US Securities and Exchange Commission,37
+World Meteorological Organization,37
+United States Federal Government,34
+United States Congress,30
+U.S. Fish and Wildlife Service,29
+United States National Park Service,25
+United States Senate,25
+United Nations Framework Convention on Climate Change,24
+Chevron Corporation,23
+International Monetary Fund,22
+United States Forest Service,21
+BlackRock Inc,21
+Imperial College London,21
+United States Department of Energy,20
+World Economic Forum,19
+Natural Resources Defense Council,18
+American Petroleum Institute,17
+Shell PLC,17
+Tesla Inc,17
+Abu Dhabi National Oil Company,16
+BP PLC,16
+Sierra Club,16
+Federal Emergency Management Agency,16
+Environmental Defense Fund,15
+JPMorgan Chase & Co.,14
+Greenpeace International,14
+Pew Research Center,14
+"Amazon.com, Inc.",13
+European Parliament,13
+Liberty Energy Inc.,13
+Microsoft Corporation,13
+Occidental Petroleum Corp,13
+"United Nations Educational, Scientific and Cultural Organization",13
+American Meteorological Society,12
+Center for Biological Diversity,11
+Google LLC,11
+Organization of the Petroleum Exporting Countries,11
+Earthjustice,11
+University of Arizona,11
+U.S. Bureau of Land Management,10
+Group of 20,10
+International Court of Justice,10
+U.S. Chamber of Commerce,10
+British Antarctic Survey,9
+Climeworks AG,9
+Environmental Working Group,9
+Illinois Commerce Commission,9
+MasterCard Inc.,9
+International Maritime Organization,9
+Minnesota Pollution Control Agency,9
+Net Zero Asset Managers Initiative,9
+ConocoPhillips,9
+United States Agency for International Development,9
+Centers for Disease Control and Prevention,9
+Energy Information Administration,9
+University of California Los Angeles,9
+European Court of Human Rights,8
+ENI S.p.A.,8
+European Commission,8
+Alphabet Inc.,8
+The Heritage Foundation,8
+Internal Revenue Service,8
+National Aeronautics and Space Administration,8
+North Atlantic Treaty Organization,8
+X Corporation,8
+Union of Concerned Scientists,8
+World Resources Institute,8
+California Air Resources Board,7
+Duke Energy Corp,7
+Morgan Stanley,7
+Georgia Power Co,7
+National Association of Insurance Commissioners,7
+Bank of America Corporation,7
+University of Chicago,7
+United States Department of Agriculture,7
+U.S. Army Corps of Engineers,7
+"The Boston Consulting Group, Inc.",6
+Center for American Progress,6
+Commonwealth Edison Co,6
+European Central Bank,6
+Federal Government of Germany,6
+Federal Highway Administration,6
+Global Wind Energy Council,6
+General Services Administration,6
+The Group of Seven,6
+Harvard University,6
+International Union for Conservation of Nature,6
+Met Office,6
+Morgan Stanley Investment Management Inc,6
+
+
+Search Summary,
+Text,"la=en and date after 20220630 AND date before 20250801 and wc>250 and rst=USA and rst=tmnbus not (update or Briefing or summary or letters or correction* or Daybook or ""market talk"" or ""roundup"" or ""press release"" or ""results announcement"" or shortage) and (ns=GCLIMT and ((climate /n2/ chang*) or (climate /n2/ crisis) or (climate /n2/ impact) or ""global warming"" or ((atleast2 climate or atleast2 warming or atleast2 environment*) or hlp=carbon (neutrality or capture or emissions) or atleast2 greenhouse$ or atleast3 decarboni*)))"
+Date,All Dates
+Source,All Sources
+Author,All Authors
+Company,All Companies
+Subject,All Subjects
+Industry,All Industries
+Region,All Regions
+Language,All Languages
+Results Found,"9,374"
+Timestamp,4 October 2025 18:01
+"© 2025 Factiva, Inc.  All rights reserved."
