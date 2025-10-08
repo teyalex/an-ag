@@ -1,48 +1,46 @@
 ﻿Most Mentioned Sources
-9374 documents  for All Dates
+10696 documents  for All Dates
 
 Source,Document Count,Circulation,Unique Visitors/Month,Publisher,Source Website
-The New York Times - All sources,2205,,,,
-Washington Post - All sources,1737,,,,
-The Wall Street Journal - All sources,850,,,,
-The Boston Globe - All sources,734,,,,
-USA Today - All sources,608,,,,
-Orlando Sentinel - All sources,413,,,,
-Baltimore Sun - All sources,350,,,,
-Business Insider - All sources,269,,,,
-South Florida Sun-Sentinel - All sources,265,,,,
+The New York Times - All sources,2163,,,,
+Washington Post - All sources,1713,,,,
+CNN - All sources,1161,,,,
+The Wall Street Journal - All sources,840,,,,
+The Boston Globe - All sources,733,,,,
+USA Today - All sources,597,,,,
+Orlando Sentinel - All sources,402,,,,
+Baltimore Sun - All sources,341,,,,
+Business Insider - All sources,267,,,,
+South Florida Sun-Sentinel - All sources,256,,,,
+Forbes - All sources,234,,,,
 MarketWatch - All sources,200,,,,
-Chicago Tribune - All sources,198,,,,
-"The Hartford Courant (Connecticut, U.S.)",184,"33,992",,Tribune Content Agency,http://www.courant.com
+"The Hartford Courant (Connecticut, U.S.)",177,"33,992",,Tribune Content Agency,http://www.courant.com
 Barron's - All sources,159,,,,
-Pittsburgh Post-Gazette - All sources,148,,,,
-Star-Tribune (Minneapolis-St. Paul),145,"126,942",,The Star Tribune Company,http://www.startribune.com
-The Arizona Republic (Phoenix),108,"97,920",,"Gannett Co., Inc.",http://www.azcentral.com
-The Atlantic (U.S.),97,,,"The Atlantic Monthly Group, LLC",http://www.theatlantic.com
+Pittsburgh Post-Gazette - All sources,147,,,,
+Star-Tribune (Minneapolis-St. Paul),141,"126,942",,The Star Tribune Company,http://www.startribune.com
+Chicago Tribune - All sources,134,,,,
+The Arizona Republic (Phoenix),107,"97,920",,"Gannett Co., Inc.",http://www.azcentral.com
+The Atlantic (U.S.),96,,,"The Atlantic Monthly Group, LLC",http://www.theatlantic.com
 St. Louis Post-Dispatch,95,"92,315",,St. Louis Post-Dispatch,http://www.stltoday.com
+ABC Network - All sources,74,,,,
 Milwaukee Journal Sentinel,70,"76,571",,"Gannett Co., Inc.",http://www.jsonline.com
-The Atlanta Journal-Constitution - All sources,70,,,,
-New York Post - All sources,62,,,,
-The Indianapolis Star - All sources,56,,,,
+The Atlanta Journal-Constitution - All sources,69,,,,
+Milwaukee Journal Sentinel Online,65,,,"Gannett Co., Inc.",http://www.jsonline.com/
+New York Post - All sources,58,,,,
+Fox News - All sources,56,,,,
+The Indianapolis Star - All sources,55,,,,
 "The Tennessean (Nashville, U.S.)",53,"25,264",,"Gannett Co., Inc.",http://tennessean.com
 New York Daily News - All sources,51,,,,
 The Enquirer (Cincinnati),50,"35,117",,"Gannett Co., Inc.",http://www.cincinnati.com
 "Tampa Bay Times (Florida, U.S.)",40,"190,775",,Times Publishing Company,http://www.tampabay.com
 Detroit Free Press - All sources,37,,,,
-American Banker - All sources,33,,,,
-ABC Network - All sources,27,,,,
-Fox News - All sources,27,,,,
+American Banker - All sources,34,,,,
 Newsweek - All sources,16,,,,
-MSNBC Network - All sources,8,,,,
 The New Yorker - All sources,5,,,,
-CNN - All sources,1,,,,
-Denver Post - All sources,1,,,,
-Forbes - All sources,1,,,,
-The Christian Science Monitor (U.S.),1,,,,http://www.csmonitor.com/
 
 
 Search Summary,
-Text,"la=en and date after 20220630 AND date before 20250801 and wc>250 and rst=USA and rst=tmnbus not (update or Briefing or summary or letters or correction* or Daybook or ""market talk"" or ""roundup"" or ""press release"" or ""results announcement"" or shortage) and (ns=GCLIMT and ((climate /n2/ chang*) or (climate /n2/ crisis) or (climate /n2/ impact) or ""global warming"" or ((atleast2 climate or atleast2 warming or atleast2 environment*) or hlp=carbon (neutrality or capture or emissions) or atleast2 greenhouse$ or atleast3 decarboni*)))"
+Text,"la=en and date after 20220630 AND date before 20250701 and wc>250 and rst=USA and rst=(sfabc or sfamb or sfbbc or bsun or sfbar or wc70138 or sfbusin or sfcnbc or sfcnn or trib or sfdpst or sfdfp or tdjw or sfforb or sffoxn or sfmsnbc or mrkwc or mlwk or mijswb or nydn or nypo or sfnwswk or orse or sfpittpg or flss or slmo or msp or stpt or phx or atjc or atlcom or sfbglob or chsm or wcchsm or cinc or hfct or indy or sfnyt or gtny or tnns or sfwsj or sfusat or sfwp) not (update or Briefing or summary or letters or correction* or Daybook or ""market talk"" or ""roundup"" or ""press release"" or ""results announcement"" or shortage) and (ns=GCLIMT and ((climate /n2/ chang*) or (climate /n2/ crisis) or (climate /n2/ impact) or ""global warming"" or ((atleast2 climate or atleast2 warming or atleast2 environment*) or hlp=carbon (neutrality or capture or emissions) or atleast2 greenhouse$ or atleast3 decarboni*)))"
 Date,All Dates
 Source,All Sources
 Author,All Authors
@@ -51,6 +49,6 @@ Subject,All Subjects
 Industry,All Industries
 Region,All Regions
 Language,All Languages
-Results Found,"9,374"
-Timestamp,4 October 2025 18:01
+Results Found,"10,696"
+Timestamp,7 October 2025 16:15
 "© 2025 Factiva, Inc.  All rights reserved."

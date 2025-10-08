@@ -1,111 +1,111 @@
 ﻿Most Mentioned Industries
-9374 documents  for All Dates
+10696 documents  for All Dates
 
 Industry,Document Count
-Energy,803
-Gas Utilities,596
-Oil,369
-Alternative Fuel Vehicles,337
-Oil/Gas Upstream Operations,300
-Oil/Gas,266
-Electricity/Gas Utilities,265
-Renewable Energy Generation,236
-Automotive,199
-Oil/Gas Downstream Operations,194
-Carbon Capture/Storage,189
-Banking/Credit,182
-Fossil Fuel Power Generation,173
-Insurance,165
-Oil Extraction,164
-Fossil Fuels,152
+Energy,798
+Gas Utilities,584
+Oil,432
+Alternative Fuel Vehicles,370
+Oil/Gas Upstream Operations,301
+Oil/Gas,294
+Electricity/Gas Utilities,266
+Renewable Energy Generation,242
+Carbon Capture/Storage,198
+Automotive,196
+Oil/Gas Downstream Operations,191
+Fossil Fuel Power Generation,190
+Banking/Credit,186
+Fossil Fuels,183
+Oil Extraction,176
+Insurance,169
+Wind Energy,148
 Passenger Cars,144
-Wind Energy,142
 Financial Services,119
-Electric Power Generation,114
-Waste Management/Recycling Services,113
+Waste Management/Recycling Services,118
+Electric Power Generation,113
+Environment/Waste Management,105
+Natural Gas,102
 Utilities,101
-Natural Gas,100
-Business/Consumer Services,95
-Environment/Waste Management,95
-Natural Gas Extraction,93
+Business/Consumer Services,99
+Natural Gas Extraction,97
+Farming,96
 Investing/Securities,92
-Farming,91
-Mining/Quarrying,81
-Nuclear Power Generation,80
-Buildings/Contents Insurance,80
-Agriculture,76
-Solar Energy,72
-Renewable Energy Equipment,70
-Coal Mining,65
+Agriculture,85
+Mining/Quarrying,84
+Nuclear Power Generation,82
+Buildings/Contents Insurance,79
+Renewable Energy Equipment,75
+Coal Mining,67
+Solar Energy,67
+Water Utilities,64
+Fracking Services,61
 Transportation/Logistics,58
-Water Utilities,57
-Chemicals,57
-Fracking Services,55
-Technology,50
-Real Estate,47
-Banking,46
-Sustainable Investment,44
-Artificial Intelligence Technologies,43
-Healthcare/Life Sciences,43
-Consumer Goods,43
+Healthcare/Life Sciences,56
+Chemicals,53
+Banking,49
+Technology,49
+Real Estate,48
+Coal,47
+Sustainable Investment,45
+Artificial Intelligence Technologies,44
+Airlines,44
+Consumer Goods,42
 Non-life Insurance,41
-Coal,41
 Industrial Goods,41
-Airlines,38
-Forestry/Logging,36
+Pharmaceuticals,40
+Commercial Banking,40
 Media/Entertainment,36
-Commercial Banking,35
-Computers/Consumer Electronics,34
-Food/Beverages,32
+Computers/Consumer Electronics,35
+Forestry/Logging,34
+Food/Beverages,33
 Pipeline Transportation,31
 Primary Metals,31
-Pharmaceuticals,30
 Online Service Providers,29
 Private Banking/Wealth Management,29
+Catastrophe Insurance,28
 Liquefied/Compressed Gas,27
 Basic Materials/Resources,27
-Catastrophe Insurance,27
 Property/Casualty Insurance,26
-Computer Hardware,26
-Residential Building Construction,24
+Computer Hardware,25
+Residential Building Construction,23
 Real Estate/Construction,23
-Cement/Ready-mix Concrete,21
+Cement/Ready-mix Concrete,22
 Wine,21
 Financial Investment Services,21
 Retail,21
+Industrial Gases,20
 Health/Medical Insurance,20
-Exchange Traded Funds,20
-Industrial Gases,19
-Power Station Construction,19
+Hydropower Energy,19
+Marine Transport,19
+Geothermal Energy,19
 Industrial Electronics,19
 Building Construction,18
+Power Station Construction,18
 Construction,18
-Hydropower Energy,17
-Mutual Funds,17
+Oil Exploration,17
 Ferrous Metals,16
 Fertilizers,16
 Industrial Building Construction,16
-Geothermal Energy,16
+Mutual Funds,16
 Oil/Gas Platform Construction,15
-Marine Transport,15
+Passenger Airlines,15
+Freight Transport/Logistics,15
 Dairy Cattle Farming,14
-Oil Exploration,14
+Coffee Growing,14
 Retail/Wholesale,14
+Development Banking,14
 Private Equity,14
 Life Insurance,14
-Freight Transport/Logistics,14
+Aerospace/Defense,14
+Waste-to-Energy Generation,14
 Cattle Farming,13
 Electric Power Distribution,13
-Petrochemicals,13
-Development Banking,13
 Biofuels,13
-Leisure/Arts/Hospitality,13
-Petroleum Refining,12
-Transmission Line Construction,12
+Oil/Gas Extraction,13
 
 
 Search Summary,
-Text,"la=en and date after 20220630 AND date before 20250801 and wc>250 and rst=USA and rst=tmnbus not (update or Briefing or summary or letters or correction* or Daybook or ""market talk"" or ""roundup"" or ""press release"" or ""results announcement"" or shortage) and (ns=GCLIMT and ((climate /n2/ chang*) or (climate /n2/ crisis) or (climate /n2/ impact) or ""global warming"" or ((atleast2 climate or atleast2 warming or atleast2 environment*) or hlp=carbon (neutrality or capture or emissions) or atleast2 greenhouse$ or atleast3 decarboni*)))"
+Text,"la=en and date after 20220630 AND date before 20250701 and wc>250 and rst=USA and rst=(sfabc or sfamb or sfbbc or bsun or sfbar or wc70138 or sfbusin or sfcnbc or sfcnn or trib or sfdpst or sfdfp or tdjw or sfforb or sffoxn or sfmsnbc or mrkwc or mlwk or mijswb or nydn or nypo or sfnwswk or orse or sfpittpg or flss or slmo or msp or stpt or phx or atjc or atlcom or sfbglob or chsm or wcchsm or cinc or hfct or indy or sfnyt or gtny or tnns or sfwsj or sfusat or sfwp) not (update or Briefing or summary or letters or correction* or Daybook or ""market talk"" or ""roundup"" or ""press release"" or ""results announcement"" or shortage) and (ns=GCLIMT and ((climate /n2/ chang*) or (climate /n2/ crisis) or (climate /n2/ impact) or ""global warming"" or ((atleast2 climate or atleast2 warming or atleast2 environment*) or hlp=carbon (neutrality or capture or emissions) or atleast2 greenhouse$ or atleast3 decarboni*)))"
 Date,All Dates
 Source,All Sources
 Author,All Authors
@@ -114,6 +114,6 @@ Subject,All Subjects
 Industry,All Industries
 Region,All Regions
 Language,All Languages
-Results Found,"9,374"
-Timestamp,4 October 2025 18:01
+Results Found,"10,696"
+Timestamp,7 October 2025 16:15
 "© 2025 Factiva, Inc.  All rights reserved."

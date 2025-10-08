@@ -1,5 +1,5 @@
 ﻿Most Mentioned Sources
-109 documents  for All Dates
+115 documents  for All Dates
 
 Source,Document Count,Circulation,Unique Visitors/Month,Publisher,Source Website
 The New York Times - All sources,30,,,,
@@ -10,6 +10,7 @@ The Wall Street Journal - All sources,7,,,,
 Orlando Sentinel - All sources,6,,,,
 "The Hartford Courant (Connecticut, U.S.)",4,"33,992",,Tribune Content Agency,http://www.courant.com
 Baltimore Sun - All sources,4,,,,
+CNN - All sources,4,,,,
 South Florida Sun-Sentinel - All sources,4,,,,
 MarketWatch - All sources,3,,,,
 The Atlantic (U.S.),2,,,"The Atlantic Monthly Group, LLC",http://www.theatlantic.com
@@ -17,6 +18,8 @@ Star-Tribune (Minneapolis-St. Paul),2,"126,942",,The Star Tribune Company,http:/
 The Arizona Republic (Phoenix),1,"97,920",,"Gannett Co., Inc.",http://www.azcentral.com
 The Atlanta Journal-Constitution - All sources,1,,,,
 Business Insider - All sources,1,,,,
+Forbes - All sources,1,,,,
+Fox News - All sources,1,,,,
 New York Daily News - All sources,1,,,,
 New York Post - All sources,1,,,,
 The New Yorker - All sources,1,,,,
@@ -24,7 +27,7 @@ St. Louis Post-Dispatch,1,"92,315",,St. Louis Post-Dispatch,http://www.stltoday.
 
 
 Search Summary,
-Text,"la=en and date after 20220630 AND date before 20250801 and wc>250 and rst=USA and rst=tmnbus not (update or Briefing or summary or letters or correction* or Daybook or ""market talk"" or ""roundup"" or ""press release"" or ""results announcement"" or shortage) and (ns=GCLIMT and ((climate /n2/ chang*) or (climate /n2/ crisis) or (climate /n2/ impact) or ""global warming"" or ((atleast2 climate or atleast2 warming or atleast2 environment*) or hlp=carbon (neutrality or capture or emissions) or atleast2 greenhouse$ or atleast3 decarboni*))) and (((meat or dairy or livestock or cow or cows or cattle or beef or sheep or lamb or chicken or hog* or pig* or pork) near3 (rais* or consum* or eat* or methane or carbon or CO2 or emissions)) or (atleast3 meat or atleast3 dairy or atleast3 livestock or atleast3 cow or atleast3 cows or atleast3 cattle or atleast3 beef or atleast3 sheep or atleast3 lamb or atleast3 chicken or atleast3 poultry or atleast3 hog or atleast3 hogs or atleast3 pig or atleast3 pigs or atleast3 pork) or ((meat near2 industr*) or (livestock near2 industr*)) or (""animal agriculture"" or ""factory farm*"")) and ((((diet* or consum* or “eat less” or “eating less” or “eat more” or “eating more”) near7 (meat or livestock or beef or plant-based or veg* or flexitarian or seafood or pescatarian or fish)) or (atleast2 vegan* or atleast2 vegetarian*)) and (climate or sustainab* or environment*))"
+Text,"la=en and date after 20220630 AND date before 20250701 and wc>250 and rst=USA and rst=(sfabc or sfamb or sfbbc or bsun or sfbar or wc70138 or sfbusin or sfcnbc or sfcnn or trib or sfdpst or sfdfp or tdjw or sfforb or sffoxn or sfmsnbc or mrkwc or mlwk or mijswb or nydn or nypo or sfnwswk or orse or sfpittpg or flss or slmo or msp or stpt or phx or atjc or atlcom or sfbglob or chsm or wcchsm or cinc or hfct or indy or sfnyt or gtny or tnns or sfwsj or sfusat or sfwp) not (update or Briefing or summary or letters or correction* or Daybook or ""market talk"" or ""roundup"" or ""press release"" or ""results announcement"" or shortage) and (ns=GCLIMT and ((climate /n2/ chang*) or (climate /n2/ crisis) or (climate /n2/ impact) or ""global warming"" or ((atleast2 climate or atleast2 warming or atleast2 environment*) or hlp=carbon (neutrality or capture or emissions) or atleast2 greenhouse$ or atleast3 decarboni*))) and (((meat or dairy or livestock or cow or cows or cattle or beef or sheep or lamb or chicken or hog* or pig* or pork) near3 (rais* or consum* or eat* or methane or carbon or CO2 or emissions)) or (atleast3 meat or atleast3 dairy or atleast3 livestock or atleast3 cow or atleast3 cows or atleast3 cattle or atleast3 beef or atleast3 sheep or atleast3 lamb or atleast3 chicken or atleast3 poultry or atleast3 hog or atleast3 hogs or atleast3 pig or atleast3 pigs or atleast3 pork) or ((meat near2 industr*) or (livestock near2 industr*)) or (""animal agriculture"" or ""factory farm*"")) and ((((diet* or consum* or “eat less” or “eating less” or “eat more” or “eating more”) near7 (meat or livestock or beef or plant-based or veg* or flexitarian or seafood or pescatarian or fish)) or (atleast2 vegan* or atleast2 vegetarian*)) and (climate or sustainab* or environment*))"
 Date,All Dates
 Source,All Sources
 Author,All Authors
@@ -33,6 +36,6 @@ Subject,All Subjects
 Industry,All Industries
 Region,All Regions
 Language,All Languages
-Results Found,110
-Timestamp,4 October 2025 18:03
+Results Found,115
+Timestamp,7 October 2025 16:19
 "© 2025 Factiva, Inc.  All rights reserved."

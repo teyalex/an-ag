@@ -1,29 +1,31 @@
 ﻿Most Mentioned Industries
-301 documents  for All Dates
+343 documents  for All Dates
 
 Industry,Document Count
 Gas Utilities,29
+Agriculture,20
 Farming,20
-Agriculture,18
 Energy,15
 Dairy Cattle Farming,14
 Cattle Farming,13
 Waste Management/Recycling Services,8
+Vegetarian Food Products,8
+Alternative Fuel Vehicles,7
+Food/Beverages,7
+Environment/Waste Management,7
 Livestock Farming,7
 Oil,7
-Alternative Fuel Vehicles,6
+Meat Processing,6
 Oil/Gas Upstream Operations,5
-Food/Beverages,5
 Dairy Products,5
 Banking/Credit,5
-Environment/Waste Management,5
 Sheep/Goat Farming,4
-Meat Processing,4
+Business/Consumer Services,4
 Fossil Fuels,4
 Fracking Services,4
-Vegetarian Food Products,4
 Oil/Gas,4
 Hog/Pig Farming,3
+Renewable Energy Generation,3
 Space Transport,3
 Investing/Securities,3
 Wind Energy,3
@@ -31,13 +33,12 @@ Oil/Gas Downstream Operations,2
 Electricity/Gas Utilities,2
 Fossil Fuel Power Generation,2
 Nuclear Power Generation,2
-Renewable Energy Generation,2
 Cement/Ready-mix Concrete,2
 Vaccines,2
 Satellites,2
 Clothing,2
+Healthcare/Life Sciences,2
 Automotive,2
-Business/Consumer Services,2
 Carbon Capture/Storage,2
 Clothing/Textiles,2
 Financial Services,2
@@ -52,6 +53,7 @@ Natural Gas Extraction,1
 Electric Power Generation,1
 Electric Power Distribution,1
 Chemicals,1
+Pharmaceuticals,1
 Heating/Cooling/Air Treatment Equipment,1
 Artificial Intelligence Technologies,1
 Passenger Cars,1
@@ -59,17 +61,18 @@ Spacecraft,1
 Building Construction,1
 Lodgings/Restaurants/Bars,1
 Restaurants/Caterers,1
+Airlines,1
 Mutual Funds,1
 Financial Investment Services,1
 Advertising Services,1
 Passenger Car Rental/Leasing,1
-Healthcare/Life Sciences,1
 Broadcasting,1
 Business Schools,1
 Aerospace/Defense,1
 Biofuels,1
 Consumer Goods,1
 Chocolate/Confectionery,1
+Geothermal Energy,1
 Leisure/Arts/Hospitality,1
 Organic Farming,1
 Solar Energy,1
@@ -77,7 +80,7 @@ Utilities,1
 
 
 Search Summary,
-Text,"la=en and date after 20220630 AND date before 20250801 and wc>250 and rst=USA and rst=tmnbus not (update or Briefing or summary or letters or correction* or Daybook or ""market talk"" or ""roundup"" or ""press release"" or ""results announcement"" or shortage) and (ns=GCLIMT and ((climate /n2/ chang*) or (climate /n2/ crisis) or (climate /n2/ impact) or ""global warming"" or ((atleast2 climate or atleast2 warming or atleast2 environment*) or hlp=carbon (neutrality or capture or emissions) or atleast2 greenhouse$ or atleast3 decarboni*))) and (((meat or dairy or livestock or cow or cows or cattle or beef or sheep or lamb or chicken or hog* or pig* or pork) near3 (rais* or consum* or eat* or methane or carbon or CO2 or emissions)) or (atleast3 meat or atleast3 dairy or atleast3 livestock or atleast3 cow or atleast3 cows or atleast3 cattle or atleast3 beef or atleast3 sheep or atleast3 lamb or atleast3 chicken or atleast3 poultry or atleast3 hog or atleast3 hogs or atleast3 pig or atleast3 pigs or atleast3 pork) or ((meat near2 industr*) or (livestock near2 industr*)) or (""animal agriculture"" or ""factory farm*""))"
+Text,"la=en and date after 20220630 AND date before 20250701 and wc>250 and rst=USA and rst=(sfabc or sfamb or sfbbc or bsun or sfbar or wc70138 or sfbusin or sfcnbc or sfcnn or trib or sfdpst or sfdfp or tdjw or sfforb or sffoxn or sfmsnbc or mrkwc or mlwk or mijswb or nydn or nypo or sfnwswk or orse or sfpittpg or flss or slmo or msp or stpt or phx or atjc or atlcom or sfbglob or chsm or wcchsm or cinc or hfct or indy or sfnyt or gtny or tnns or sfwsj or sfusat or sfwp) not (update or Briefing or summary or letters or correction* or Daybook or ""market talk"" or ""roundup"" or ""press release"" or ""results announcement"" or shortage) and (ns=GCLIMT and ((climate /n2/ chang*) or (climate /n2/ crisis) or (climate /n2/ impact) or ""global warming"" or ((atleast2 climate or atleast2 warming or atleast2 environment*) or hlp=carbon (neutrality or capture or emissions) or atleast2 greenhouse$ or atleast3 decarboni*))) and (((meat or dairy or livestock or cow or cows or cattle or beef or sheep or lamb or chicken or hog* or pig* or pork) near3 (rais* or consum* or eat* or methane or carbon or CO2 or emissions)) or (atleast3 meat or atleast3 dairy or atleast3 livestock or atleast3 cow or atleast3 cows or atleast3 cattle or atleast3 beef or atleast3 sheep or atleast3 lamb or atleast3 chicken or atleast3 poultry or atleast3 hog or atleast3 hogs or atleast3 pig or atleast3 pigs or atleast3 pork) or ((meat near2 industr*) or (livestock near2 industr*)) or (""animal agriculture"" or ""factory farm*""))"
 Date,All Dates
 Source,All Sources
 Author,All Authors
@@ -86,6 +89,6 @@ Subject,All Subjects
 Industry,All Industries
 Region,All Regions
 Language,All Languages
-Results Found,301
-Timestamp,4 October 2025 18:02
+Results Found,343
+Timestamp,7 October 2025 16:18
 "© 2025 Factiva, Inc.  All rights reserved."
