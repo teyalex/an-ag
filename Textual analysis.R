@@ -6,20 +6,20 @@
 
   rm(list = ls())
   
-  # these packages aren't on CRAN, so install.packages() won't work. if not already installed, install them like this instead
+  # the package `quanteda.sentiment` isn't on CRAN, so install.packages() won't work.
+  # if not already installed, install it like this instead:
+    # install.packages("remotes")  
+    # library(remotes)
       # install_github("quanteda/quanteda.sentiment")
-      # install_github("quanteda/quanteda.textplots")
-  
+
   library(tidyverse)
   library(readtext)
   library(quanteda)
-  library(remotes)
   library(quanteda.sentiment)
   library(quanteda.textplots)
   library(ggwordcloud)
   library(ggtext)
-  library(effectsize)
-  
+
   setwd("~/Documents/work/Center/Original analysis")
   
   # styles
@@ -43,18 +43,18 @@
     # word cloud theme
     cloud <- theme_minimal() +
       theme(plot.title = element_text(face = "bold", size = 18, family = "Oswald", hjust = 0.5),
-            plot.subtitle = element_text(face = "italic", size = 10, family = "Helvetica", hjust = 0.5),
-            plot.caption = element_markdown(size = 8, family = "Helvetica"))
+            plot.subtitle = element_text(face = "italic", size = 10, family = "Roboto", hjust = 0.5),
+            plot.caption = element_markdown(size = 8, family = "Roboto"))
             
     # box plot theme
     box <- theme_bw() +
       theme(legend.position = "none",
             plot.title = element_text(face = "bold", size = 18, family = "Oswald"),
-            plot.subtitle = element_text(size = 10, family = "Helvetica"),
-            plot.caption = element_markdown(size = 8, family = "Helvetica"),
+            plot.subtitle = element_text(size = 10, family = "Roboto"),
+            plot.caption = element_markdown(size = 8, family = "Roboto"),
             axis.title.x = element_text(size = 10, family = "Oswald"),
             axis.title.y = element_text(size = 10, family = "Oswald"),
-            axis.text.y = element_text(size = 8, family = "Helvetica"),
+            axis.text.y = element_text(size = 8, family = "Roboto"),
             panel.grid.major.x = element_blank(),
             panel.grid.minor.x = element_blank())
     
@@ -62,11 +62,12 @@
     line <- theme_bw() +
       theme(legend.position = "top",
             plot.title = element_text(face = "bold", size = 18, family = "Oswald"),
-            plot.subtitle = element_text(size = 10, family = "Helvetica"),
-            plot.caption = element_markdown(size = 8, family = "Helvetica"),
+            plot.subtitle = element_text(size = 10, family = "Roboto"),
+            plot.caption = element_markdown(size = 8, family = "Roboto"),
             axis.title.x = element_text(size = 10, family = "Oswald"),
+            axis.text.x = element_text(size = 8, family = "Roboto"),
             axis.title.y = element_text(size = 10, family = "Oswald"),
-            axis.text.y = element_text(size = 8, family = "Helvetica"),
+            axis.text.y = element_text(size = 8, family = "Roboto"),
             panel.grid.major.x = element_blank(),
             panel.grid.minor.x = element_blank())
 
@@ -81,7 +82,7 @@
       mutate(date = as.Date(date, format = "%Y-%m-%d"),
              month = format(as.Date(date), "%Y-%m-01")) %>%
       filter(date >= "2022-07-01",
-             date <= "2025-07-31") %>%
+             date <= "2025-06-30") %>%
       select(date, month, scope, text)
     
     corpus <- corpus(df)
@@ -96,7 +97,7 @@
              month = format(as.Date(date), "%Y-%m-01")) %>%
       filter(scope == "cli",
              date >= "2022-07-01",
-             date <= "2025-07-31") %>%
+             date <= "2025-06-30") %>%
       select(date, month, text)
     
     cli <- corpus(cli_df)
@@ -111,7 +112,7 @@
              month = format(as.Date(date), "%Y-%m-01")) %>%
       filter(scope == "meat",
              date >= "2022-07-01",
-             date <= "2025-07-31") %>%
+             date <= "2025-06-30") %>%
       select(date, month, text)
     
     meat <- corpus(meat_df)
@@ -126,7 +127,7 @@
              month = format(as.Date(date), "%Y-%m-01")) %>%
       filter(scope == "diet",
              date >= "2022-07-01",
-             date <= "2025-07-31") %>%
+             date <= "2025-06-30") %>%
       select(date, month, text)
     
       diet <- corpus(diet_df)
@@ -228,81 +229,49 @@
   names(top100) <- NULL
   names(top100) <- c("word", "count")
   
-  # creating data frame for top 1,000 terms in full corpus
+  # creating data frame for top 10,000 terms in full corpus
   top10000 <- as.data.frame(topfeatures(dfm, 10000))
   top10000 <- rownames_to_column(top10000, "word")
   names(top10000) <- NULL
   names(top10000) <- c("word", "count")
   
-  # finding which terms in word list are in top 1,000 terms
+  # finding which terms in word list are in top 10,000 terms
   
     words <- c("meat", "dairy", "livestock", "cow", "cows", "cattle", "beef", "sheep", "lamb", "chicken", "poultry",
-               "hog.", "pig.", "pork", "rais.", "consum.", "eat.", "methane", "animal", "agriculture", "animal agriculture",
-               "farm.", "factory farm.", "diet.", "consum.", "plant-based", "veg.", "flexitarian", "seafood", "pescatarian",
-               "fish", "vegan.", "vegetarian.")
+               "hog", "pig", "pork", "rais", "consum", "eat", "methane", "animal", "agriculture", "animal agriculture",
+               "farm", "factory farm", "diet", "consum.", "plant-based", "veg", "flexitarian", "seafood", "pescatarian",
+               "fish", "vegan", "vegetarian")
     
     top10000 <- top10000 %>%
       mutate(agdiet = case_when(
         word %in% words ~ T,
-             .default = F))
+             .default = F)) %>%
+      rowid_to_column()
     
-    top10000[(top10000$agdiet == T),]
+    # two words ranking above and below each `agdiet` term in top 10,000
     
-    # two words ranking above and below each `agdiet` terms in top 10,000
+      rankings <- as.data.frame(top10000[202:206,]) %>%     # "methane"
+        add_row(as.data.frame(top10000[567:571,])) %>%      # "agriculture"
+        add_row(as.data.frame(top10000[689:693,])) %>%      # "meat"
+        add_row(as.data.frame(top10000[699:703,])) %>%      # "fish"
+        add_row(as.data.frame(top10000[707:711,])) %>%      # "animal"
+        add_row(as.data.frame(top10000[1318:1322,])) %>%    # "dairy"
+        add_row(as.data.frame(top10000[1371:1375,])) %>%    # "cows"
+        add_row(as.data.frame(top10000[1539:1543,])) %>%    # "beef"
+        add_row(as.data.frame(top10000[1555:1559,])) %>%    # "cattle"
+        add_row(as.data.frame(top10000[1571:1575,])) %>%    # "livestock"
+        add_row(as.data.frame(top10000[1738:1742,])) %>%    # "plant-based"
+        add_row(as.data.frame(top10000[1890:1894,])) %>%    # "chicken"
+        add_row(as.data.frame(top10000[2576:2580,])) %>%    # "cow"
+        add_row(as.data.frame(top10000[3154:3158,])) %>%    # "vegan"
+        add_row(as.data.frame(top10000[4272:4276,])) %>%    # "pork"
+        add_row(as.data.frame(top10000[4830:4834,])) %>%    # "sheep"
+        add_row(as.data.frame(top10000[6025:6029,])) %>%    # "seafood"
+        add_row(as.data.frame(top10000[6476:6480,])) %>%    # "poultry"
+        add_row(as.data.frame(top10000[7056:7060,])) %>%    # "vegetarian"
+        add_row(as.data.frame(top10000[7377:7381,]))        # "lamb"
     
-      # "methane"
-      top10000[212:216,]
-      
-      # "agriculture"
-      top10000[575:580,]
-      
-      # "meat"
-      top10000[706:710,]
-      
-      # "fish"
-      top10000[720:724,]
-      
-      # "animal"
-      top10000[1354:1358,]
-      
-      # "dairy"
-      top10000[1431:1435,]
-      
-      # "beef"
-      top10000[1527:1531,]
-      
-      # "cows"
-      top10000[1566:1570,]
-      
-      # "cattle"
-      top10000[1619:1623,]
-      
-      # "livestock"
-      top10000[1740:1744,]
-      
-      # "plant-based"
-      top10000[2062:2066,]
-      
-      # chicken
-      top10000[2516:2520,]
-      
-      # "cow"
-      top10000[3169:3173,]
-      
-      # "pork"
-      top10000[4682:4686,]
-      
-      # "sheep"
-      top10000[4764:4768,]
-      
-      # "seafood"
-      top10000[5878:5882,]
-      
-      # "poultry"
-      top10000[6280:6284,]
-      
-      # "lamb"
-      top10000[6786:6790,]
+      write.csv(rankings, "rankings.csv")
     
 # sentiment analysis
   
@@ -311,15 +280,24 @@
                               textstat_valence(dictionary = data_dictionary_AFINN)) %>%
     mutate(scope = "1")
   
+  summary(cli_sent$sentiment)
+  sd(cli_sent$sentiment)
+  
   # meat
   meat_sent <- as.data.frame(meat |>
                               textstat_valence(dictionary = data_dictionary_AFINN)) %>%
     mutate(scope = "2")
   
+  summary(meat_sent$sentiment)
+  sd(meat_sent$sentiment)
+  
   # diet
   diet_sent <- as.data.frame(diet |>
                               textstat_valence(dictionary = data_dictionary_AFINN)) %>%
     mutate(scope = "3")
+  
+  summary(diet_sent$sentiment)
+  sd(diet_sent$sentiment)
 
   # "meat" KWIC
   kwic.meat_sent <- as.data.frame(kwic.meat_dfm |>
@@ -350,18 +328,6 @@
       
       # cli vs. diet
       wilcox.test(sent_test$`1`, sent_test$`3`, paired = TRUE)
-    
-    # sentiment of KWIC
-    
-      kwic_sent <- rbind(kwic.meat_sent, kwic.diet_sent)
-  
-      kwic_sent_test <- kwic_sent %>%
-        pivot_wider(names_from = scope,
-                     values_from = sentiment) %>%
-        drop_na()
-      
-      # "meat" KWIC vs. "diet" KWIC
-      wilcox.test(kwic_sent_test$`2`, kwic_sent_test$`3`, paired = TRUE)
       
 # article counts over time (by month)
     
@@ -380,7 +346,7 @@
     top_plot <- ggplot(top100, aes(label = word, size = count, color = count)) +
       geom_text_wordcloud(family = "Oswald") +
       labs(title = "100 most frequent terms",
-           subtitle = "From 8,058 climate articles between July 2022 and July 2025",
+           subtitle = "From 8,058 climate articles from July 2022 through June 2025",
            caption = cap) +
       scale_color_continuous(palette = pal2) +
       scale_size_continuous(range = c(3, 15)) +
@@ -395,7 +361,7 @@
     kwic.meat_plot <- ggplot(kwic.meat_top, aes(label = word, size = count, color = count)) +
       geom_text_wordcloud(family = "Oswald") +
       labs(title = "Keywords near \"meat\"",
-           subtitle = "From 8,058 climate articles between July 2022 and July 2025",
+           subtitle = "From 8,058 climate articles from July 2022 through June 2025",
            caption = cap) +
       scale_color_continuous(palette = pal2) +
       scale_size_continuous(range = c(3, 15)) +
@@ -410,7 +376,7 @@
     kwic.ag_plot <- ggplot(kwic.ag_top, aes(label = word, size = count, color = count)) +
       geom_text_wordcloud(family = "Oswald") +
       labs(title = "Keywords near \"agriculture\"",
-           subtitle = "From 8,058 climate articles between July 2022 and July 2025",
+           subtitle = "From 8,058 climate articles from July 2022 through June 2025",
            caption = cap) +
       scale_color_continuous(palette = pal2) +
       scale_size_continuous(range = c(3, 15)) +
@@ -443,16 +409,25 @@
     
     months_plot <- ggplot(months_df, aes(x = month, y = count, color = scope)) +
       geom_step(linewidth = 0.8) +
-      labs(title = "Coverage over time",
-           subtitle = str_wrap("Apart from spikes around news events like COP sessions, the volume of climate reporting
-                                has declined in the past three years. Animal agriculture and dietary change have been mentioned
-                                in that coverage at a consistently low rate.", 90),
+      annotate("text", x = as.Date("2022-07-01"), y = 435, label = str_wrap("Europe heat waves", 10),
+               family = "Oswald", size = 2.5, hjust = "center") +
+      annotate("text", x = as.Date("2022-11-01"), y = 445, label = "C0P27",
+               family = "Oswald", size = 2.5, hjust = "center") +
+      annotate("text", x = as.Date("2023-08-01"), y = 352, label = str_wrap("Greece wildfires, record global temps, Storm Daniel", 20),
+               family = "Oswald", size = 2.5, hjust = "center") +
+      annotate("text", x = as.Date("2023-12-01"), y = 349, label = "COP28",
+               family = "Oswald", size = 2.5, hjust = "center") +
+      annotate("text", x = as.Date("2024-11-01"), y = 236, label = "COP29",
+               family = "Oswald", size = 2.5, hjust = "center") +
+      labs(title = "Three years of declining climate coverage",
+           subtitle = str_wrap("Apart from spikes around news events, the volume of climate reporting has declined over
+           the past three years. Animal agriculture and dietary change are mentioned in that coverage at a consistently low rate.", 95),
            caption = cap,
            x = "Month",
            y = "Number of articles",
            color = "") +
       scale_x_date(breaks = as.Date(c("2022-07-01", "2023-01-01", "2023-07-01", "2024-01-01", "2024-07-01", "2025-01-01", "2025-07-01")),
-                   labels = c("July 2022", "Jan. 2023", "July 2023", "Jan. 2023", "July 2024", "Jan. 2025", "July 2025")) +
+                   labels = c("July '22", "Jan. '23", "July '23", "Jan. '24", "July '24", "Jan. '25", "July '25")) +
       scale_color_discrete(breaks = c("cli", "meat", "diet"),
                            labels = c("climate", "+ meat", "+ diet"),
                            palette = pal3.1) +
