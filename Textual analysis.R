@@ -273,7 +273,7 @@
     
       write.csv(rankings, "rankings.csv")
     
-# sentiment analysis
+# sentiment analysis (not included in written report)
   
   # cli
   cli_sent <- as.data.frame(cli |>
@@ -386,7 +386,7 @@
     
     ggsave("kwic.ag_plot.jpg", plot = kwic.ag_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
   
-  # PLOT: sentiment analysis across scopes
+  # PLOT: sentiment analysis across scopes (not included in written report)
     
     sent_plot <- ggplot(sent, aes(x = scope, y = sentiment, fill = scope)) +
       geom_boxplot() +

@@ -108,6 +108,8 @@
                    values_to = "count")
     
     companies_pct <- companies %>%
+      group_by(type, scope) %>%
+      summarize(count = sum(count)) %>%
       mutate(pct = case_when(scope == "cli" ~ count/10696,
                              scope == "meat" ~ count/343,
                              scope == "diet" ~ count/115))
