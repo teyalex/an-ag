@@ -239,7 +239,8 @@ code.counts <- code.counts %>%
      context_plot <- ggplot(an.ag_codes %>%
                               filter(!context %in% c("neither")),
                             aes(x = context, fill = context)) +
-      geom_bar(position = position_stack()) +
+      geom_bar(position = position_stack(),
+               width = 0.5) +
       coord_flip() +
       labs(title = "Context of agriculture mentions",
            subtitle = str_wrap("Only 8% of the article sampled mentioned agriculture at all. Many did so
