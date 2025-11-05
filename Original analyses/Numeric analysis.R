@@ -15,7 +15,6 @@
   pal3 <- c("#A0E0AB","#ED3125", "#F3DDB1")
   pal2 <- c("#ED3125", "#F3DDB1")
   
-  
   # caption text
   
   cap <- "Center for Biological Diversity/Brighter Green | *github.com/teyalex/an-ag*"
