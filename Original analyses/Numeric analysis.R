@@ -11,14 +11,13 @@
   rm(list = ls())
   library(tidyverse)
   library(ggtext)
-  setwd("~/Documents/work/Center/Original analysis")
+  setwd("~/Your/file/directory/here")
   
 # styles
   
   # color palettes
   pal3 <- c("#A0E0AB","#ED3125", "#F3DDB1")
   pal2 <- c("#ED3125", "#F3DDB1")
-  
   
   # caption text
   
