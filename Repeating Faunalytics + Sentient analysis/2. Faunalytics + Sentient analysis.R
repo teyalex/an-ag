@@ -18,7 +18,7 @@ library(tidyverse)
 library(ggtext)
 
 #Set working directory
-setwd("~/Documents/work/Center/Sentient analysis")
+setwd("~/Your/file/directory/here")
 
 ## Find the original code used to prepare the data at https://osf.io/xmwgz/files/osfstorage ("1.Categorization.R")
   ## The Center's (very slightly) adapted version of this step is at https://github.com/teyalex/an-ag.

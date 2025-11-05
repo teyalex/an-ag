@@ -1,4 +1,4 @@
-## This code was adapted by Alex Tey with the Center for Biological Diversity
+## This code was adapted by Alexandra Tey with the Center for Biological Diversity
   ## from code published by Faunalytics in collaboration with Sentient Media.
 
 ## View the original code and analysis here: https://osf.io/xmwgz/files/osfstorage.
@@ -9,7 +9,7 @@
 rm(list = ls())
 
 #Set working directory
-setwd("~/Documents/work/Center/Sentient analysis")
+setwd("~/Your/file/directory/here")
 
 ## install.packages("quanteda")
 ## install.packages("readtext")
