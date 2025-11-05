@@ -7,6 +7,10 @@
 ## Contact Alex at a.tey@pm.me or the Center's Population and Sustainability team at PopSusColab@biologicaldiversity.org.
   ## https://biologicaldiversity.org | https://alextey.co | https://github.com/teyalex
 
+  ## NOTE: Lines that download files to the user's computer are commented out.
+    ## If you do want to save JPGs of the plots and a CSV of one table, use a CMND-F/CTRL-F find-replace to
+    ## replace "# ggsave" with "ggsave" and "# write" with "write".
+
 #Clear workspace
 rm(list = ls())
 
@@ -102,7 +106,7 @@ code.counts <- code.counts %>%
         select(source, number) %>%
         arrange(number)
       
-      ## write_csv(df_an.ag, "an.ag articles.csv", col_names = T)
+      # write_csv(df_an.ag, "an.ag articles.csv", col_names = T)
       
     ## Creating data frames from coding articles as mentioning animal agriculture in the
       ## context of being "cause" or suffering a "consequence" or climate change
@@ -171,7 +175,7 @@ code.counts <- code.counts %>%
       
       print(simple.mentions_plot)
       
-      ggsave("simple.mentions_plot.jpg", plot = simple.mentions_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+      # ggsave("simple.mentions_plot.jpg", plot = simple.mentions_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
 
   ## Plotting mentions of transportation and animal agriculture in relation to total counts
   
@@ -196,7 +200,7 @@ code.counts <- code.counts %>%
 
     print(mentions_plot)
     
-    ggsave("mention_plot.jpg", plot = mentions_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    # ggsave("mention_plot.jpg", plot = mentions_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
   
   ## Plotting causes of climate change across all outlets
   
@@ -232,7 +236,7 @@ code.counts <- code.counts %>%
     
     print(causes_plot)
     
-    ggsave("causes_plot.jpg", plot = causes_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    # ggsave("causes_plot.jpg", plot = causes_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
     
   ## Plotting mentions of animal agriculture by publication and cause/consequence context
     
@@ -261,4 +265,4 @@ code.counts <- code.counts %>%
     
     print(context_plot)
     
-    ggsave("context_plot.jpg", plot = context_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    # ggsave("context_plot.jpg", plot = context_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
