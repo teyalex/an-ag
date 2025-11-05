@@ -1,0 +1,889 @@
+source,number,animal.ag,general.ag,regen.ag,sheep,chicken,pig,fish,methane
+Chicago Tribune,701,0,0,0,0,0,0,0,0
+Chicago Tribune,710,0,0,0,0,0,0,0,0
+Chicago Tribune,711,0,0,0,0,0,0,0,0
+Chicago Tribune,712,0,1,0,0,0,0,0,0
+Chicago Tribune,713,0,1,0,0,0,0,0,0
+Chicago Tribune,714,0,0,0,0,0,0,0,0
+Chicago Tribune,715,1,0,0,0,0,0,0,0
+Chicago Tribune,716,0,0,0,0,0,0,0,0
+Chicago Tribune,717,1,0,1,0,0,0,0,0
+Chicago Tribune,718,0,0,0,0,0,0,0,0
+Chicago Tribune,719,0,1,0,0,0,0,0,0
+Chicago Tribune,702,0,0,0,0,0,0,0,0
+Chicago Tribune,720,0,0,0,0,0,0,0,0
+Chicago Tribune,721,0,0,0,0,0,0,0,0
+Chicago Tribune,722,0,1,0,0,0,0,0,0
+Chicago Tribune,723,0,0,0,0,0,0,0,0
+Chicago Tribune,724,0,0,0,0,0,0,0,0
+Chicago Tribune,725,0,0,0,0,0,0,0,0
+Chicago Tribune,726,0,1,0,0,0,0,0,0
+Chicago Tribune,727,0,0,0,0,0,0,0,0
+Chicago Tribune,728,0,1,0,0,0,0,0,0
+Chicago Tribune,729,1,1,1,0,0,0,0,0
+Chicago Tribune,703,0,1,0,0,0,0,0,0
+Chicago Tribune,730,0,1,0,0,0,0,0,0
+Chicago Tribune,731,0,0,0,0,0,0,0,0
+Chicago Tribune,732,0,0,1,0,0,0,0,0
+Chicago Tribune,733,0,0,0,0,0,0,0,0
+Chicago Tribune,734,0,0,0,0,0,0,0,0
+Chicago Tribune,735,0,1,0,0,0,0,0,0
+Chicago Tribune,736,0,0,0,0,0,0,0,0
+Chicago Tribune,737,0,0,0,0,0,0,0,0
+Chicago Tribune,738,0,0,1,0,0,0,0,1
+Chicago Tribune,739,0,1,0,0,0,0,0,0
+Chicago Tribune,704,0,0,0,0,0,0,0,1
+Chicago Tribune,740,0,0,0,0,0,0,0,0
+Chicago Tribune,741,0,0,0,0,0,0,0,0
+Chicago Tribune,742,0,0,0,0,0,0,0,0
+Chicago Tribune,743,0,1,0,0,0,0,0,0
+Chicago Tribune,744,0,0,0,0,0,0,0,0
+Chicago Tribune,745,0,0,0,0,0,0,0,0
+Chicago Tribune,746,0,0,0,0,0,0,0,0
+Chicago Tribune,747,1,1,0,0,0,0,0,0
+Chicago Tribune,748,0,0,0,0,0,0,0,0
+Chicago Tribune,749,0,0,0,0,0,0,0,0
+Chicago Tribune,705,1,1,0,0,0,0,0,0
+Chicago Tribune,750,0,1,0,0,0,0,0,0
+Chicago Tribune,751,0,1,0,0,0,0,0,0
+Chicago Tribune,752,0,0,0,0,0,0,0,0
+Chicago Tribune,753,0,1,0,0,0,0,0,0
+Chicago Tribune,754,0,1,0,0,0,0,0,0
+Chicago Tribune,755,0,0,0,0,0,0,0,0
+Chicago Tribune,756,0,0,0,0,0,0,0,0
+Chicago Tribune,757,0,0,0,0,0,0,0,0
+Chicago Tribune,758,0,1,0,0,0,0,0,0
+Chicago Tribune,759,0,0,0,0,0,0,0,0
+Chicago Tribune,706,0,0,0,0,0,0,0,0
+Chicago Tribune,760,0,0,0,0,0,0,0,0
+Chicago Tribune,761,0,1,1,0,0,0,0,0
+Chicago Tribune,762,0,0,0,0,0,0,0,0
+Chicago Tribune,763,0,1,1,0,0,0,0,0
+Chicago Tribune,764,0,0,0,0,0,0,0,0
+Chicago Tribune,765,0,0,0,0,0,0,0,0
+Chicago Tribune,766,1,1,0,0,0,0,0,0
+Chicago Tribune,767,0,0,0,0,0,0,0,0
+Chicago Tribune,768,0,0,0,0,0,0,0,0
+Chicago Tribune,769,0,1,0,0,0,0,0,0
+Chicago Tribune,707,0,0,0,0,0,0,0,0
+Chicago Tribune,770,0,0,0,0,0,0,0,0
+Chicago Tribune,771,0,0,0,0,0,0,0,0
+Chicago Tribune,772,0,0,0,0,0,0,0,0
+Chicago Tribune,773,0,0,0,0,0,0,0,0
+Chicago Tribune,774,0,0,0,0,0,0,0,0
+Chicago Tribune,775,0,1,1,0,0,0,0,0
+Chicago Tribune,776,1,0,1,0,0,0,0,1
+Chicago Tribune,777,0,0,0,0,0,0,0,0
+Chicago Tribune,778,0,0,0,0,0,0,0,0
+Chicago Tribune,779,0,0,0,0,0,0,0,0
+Chicago Tribune,708,0,0,0,0,0,0,0,0
+Chicago Tribune,780,1,1,0,0,1,0,0,0
+Chicago Tribune,781,0,0,0,0,0,0,0,0
+Chicago Tribune,782,0,0,0,0,0,0,0,0
+Chicago Tribune,783,1,1,0,0,1,0,0,0
+Chicago Tribune,784,0,0,0,0,0,0,0,0
+Chicago Tribune,785,0,1,0,0,0,0,0,1
+Chicago Tribune,786,0,0,0,0,0,0,0,0
+Chicago Tribune,787,0,0,0,0,0,0,0,1
+Chicago Tribune,788,0,0,0,0,0,0,0,0
+Chicago Tribune,709,0,0,0,0,0,0,0,0
+CNN,901,0,0,0,0,0,0,0,0
+CNN,910,0,1,0,0,0,0,0,0
+CNN,1000,0,0,0,0,0,0,0,0
+CNN,911,0,0,0,0,0,0,0,0
+CNN,912,0,0,0,0,0,0,0,0
+CNN,913,0,1,0,0,0,0,0,0
+CNN,914,0,0,0,0,0,0,0,0
+CNN,915,1,1,0,0,0,0,1,0
+CNN,916,1,1,0,0,0,0,1,0
+CNN,917,0,0,0,0,0,0,0,0
+CNN,918,0,0,0,0,0,0,0,0
+CNN,919,0,0,0,0,0,0,0,0
+CNN,902,0,0,0,0,0,0,0,0
+CNN,920,0,0,0,0,0,0,0,0
+CNN,921,0,0,0,0,0,0,0,0
+CNN,922,0,0,0,0,0,0,0,0
+CNN,923,0,0,0,0,0,0,0,0
+CNN,924,0,1,0,0,0,0,0,0
+CNN,925,0,0,0,0,0,0,0,0
+CNN,926,0,0,0,0,0,0,0,0
+CNN,927,0,0,1,0,0,0,0,1
+CNN,928,0,0,0,0,0,0,0,0
+CNN,929,0,0,0,0,0,0,0,0
+CNN,903,0,0,0,0,0,0,0,0
+CNN,930,0,0,0,0,0,0,0,0
+CNN,931,0,0,0,0,0,0,0,0
+CNN,932,0,0,0,0,0,0,0,0
+CNN,933,1,0,0,0,0,0,0,0
+CNN,934,0,0,0,0,0,0,0,0
+CNN,935,0,0,0,0,0,0,0,0
+CNN,936,0,0,0,0,0,0,0,0
+CNN,937,0,0,0,0,0,0,0,0
+CNN,938,1,1,0,0,0,0,0,0
+CNN,939,0,1,0,0,0,0,0,0
+CNN,904,0,0,0,0,0,0,0,0
+CNN,940,1,0,0,0,0,1,0,0
+CNN,941,0,0,0,0,0,0,0,1
+CNN,942,0,1,0,0,0,0,0,0
+CNN,943,0,0,0,0,0,0,0,0
+CNN,944,0,0,0,0,0,0,0,0
+CNN,945,0,0,0,0,0,0,0,0
+CNN,946,0,0,0,0,0,0,0,0
+CNN,947,0,0,0,0,0,0,0,0
+CNN,948,0,1,0,0,0,0,0,0
+CNN,949,0,1,0,0,0,0,0,0
+CNN,905,0,0,0,0,0,0,0,0
+CNN,950,0,1,0,0,0,0,0,0
+CNN,951,0,0,0,0,0,0,0,0
+CNN,952,0,0,0,0,0,0,0,0
+CNN,953,0,1,0,0,0,0,0,0
+CNN,954,0,0,0,0,0,0,0,0
+CNN,955,0,1,0,0,0,0,0,0
+CNN,956,1,0,0,0,0,0,0,0
+CNN,957,0,1,0,0,0,0,0,0
+CNN,958,0,0,0,0,0,0,0,1
+CNN,959,0,0,0,0,0,0,0,1
+CNN,906,0,0,0,0,0,0,0,0
+CNN,960,0,0,0,0,0,0,0,0
+CNN,961,0,0,0,0,0,0,0,0
+CNN,962,0,0,0,0,0,0,0,0
+CNN,963,0,0,0,0,0,0,0,0
+CNN,964,0,0,0,0,0,0,0,0
+CNN,965,0,0,0,0,0,0,0,0
+CNN,966,0,0,0,0,0,0,0,1
+CNN,967,0,0,0,0,0,0,0,0
+CNN,968,0,0,0,0,0,0,0,0
+CNN,969,0,0,0,0,0,0,0,0
+CNN,907,0,1,0,0,0,0,0,0
+CNN,970,0,0,0,0,0,0,0,0
+CNN,971,1,0,0,0,0,0,0,0
+CNN,972,0,0,0,0,0,0,0,0
+CNN,973,1,0,0,0,0,0,1,0
+CNN,974,0,0,0,0,0,0,0,0
+CNN,975,0,0,0,0,0,0,0,0
+CNN,976,0,0,0,0,0,0,0,0
+CNN,977,0,0,0,0,0,0,0,0
+CNN,978,1,0,0,1,0,0,0,0
+CNN,979,0,0,0,0,0,0,0,0
+CNN,908,0,0,0,0,0,0,0,0
+CNN,980,0,0,0,0,0,0,0,0
+CNN,981,0,0,0,0,0,0,0,0
+CNN,982,0,1,0,0,0,0,0,0
+CNN,983,0,0,0,0,0,0,0,0
+CNN,984,0,0,0,0,0,0,0,0
+CNN,985,0,0,0,0,0,0,0,0
+CNN,986,0,0,0,0,0,0,0,0
+CNN,987,0,0,0,0,0,0,0,0
+CNN,988,0,1,0,0,0,0,0,0
+CNN,989,0,1,0,0,0,0,0,0
+CNN,909,0,0,0,0,0,0,0,0
+CNN,990,0,0,0,0,0,0,0,1
+CNN,991,0,0,0,0,0,0,0,0
+CNN,992,0,0,0,0,0,0,0,0
+CNN,993,0,0,0,0,0,0,0,0
+CNN,994,0,0,0,0,0,0,0,0
+CNN,995,0,0,0,0,0,0,0,0
+CNN,996,0,0,1,0,0,0,0,0
+CNN,997,0,0,0,0,0,0,0,0
+CNN,998,0,0,0,0,0,0,0,0
+CNN,999,0,0,0,0,0,0,0,0
+New York Post,301,0,0,0,0,0,0,0,0
+New York Post,400,0,0,0,0,0,0,0,0
+New York Post,401,0,0,0,0,0,0,0,0
+New York Post,311,0,0,0,0,0,0,0,0
+New York Post,312,0,0,0,0,0,0,0,0
+New York Post,313,0,0,0,0,0,0,0,0
+New York Post,314,0,0,0,0,0,0,0,0
+New York Post,315,1,0,0,0,0,0,0,0
+New York Post,316,0,0,0,0,0,0,0,0
+New York Post,317,0,0,0,0,0,0,0,0
+New York Post,318,0,0,0,0,0,0,0,0
+New York Post,319,0,0,0,0,0,0,0,0
+New York Post,302,0,0,0,0,0,0,0,0
+New York Post,320,0,0,0,0,0,0,0,0
+New York Post,321,0,0,0,0,0,0,0,0
+New York Post,322,0,0,0,0,0,0,0,0
+New York Post,323,0,0,0,0,0,0,0,0
+New York Post,324,0,0,0,0,0,0,0,0
+New York Post,325,0,0,0,0,0,0,0,0
+New York Post,326,0,1,0,0,0,0,0,0
+New York Post,327,0,0,0,0,0,0,0,0
+New York Post,328,0,0,0,0,0,0,0,0
+New York Post,329,0,0,0,0,0,0,0,0
+New York Post,303,0,0,0,0,0,0,0,0
+New York Post,330,0,0,0,0,0,0,0,0
+New York Post,331,0,1,0,0,0,0,0,1
+New York Post,332,0,0,0,0,0,0,0,0
+New York Post,333,0,0,0,0,0,0,0,0
+New York Post,334,0,0,0,0,0,0,0,0
+New York Post,335,0,0,0,0,0,0,0,0
+New York Post,336,0,0,0,0,0,0,0,0
+New York Post,337,0,0,0,0,0,0,0,1
+New York Post,338,1,1,0,0,0,0,0,0
+New York Post,339,0,0,0,0,0,0,0,0
+New York Post,304,0,0,0,0,0,0,0,0
+New York Post,340,0,0,0,0,0,0,0,0
+New York Post,341,0,0,0,0,0,0,0,0
+New York Post,342,0,0,0,0,0,0,0,0
+New York Post,343,0,0,0,0,0,0,0,0
+New York Post,344,0,0,0,0,0,0,0,0
+New York Post,345,0,0,0,0,0,0,0,0
+New York Post,346,0,1,0,0,0,0,0,0
+New York Post,347,0,0,0,0,0,0,0,0
+New York Post,348,0,0,0,0,0,0,0,0
+New York Post,349,0,0,0,0,0,0,0,0
+New York Post,305,0,0,0,0,0,0,0,0
+New York Post,350,0,0,0,0,0,0,0,0
+New York Post,351,0,1,0,0,0,0,0,0
+New York Post,352,0,0,0,0,0,0,0,0
+New York Post,353,0,0,0,0,0,0,0,0
+New York Post,354,0,0,0,0,0,0,0,0
+New York Post,355,0,0,0,0,0,0,0,0
+New York Post,356,0,0,0,0,0,0,0,0
+New York Post,357,0,0,0,0,0,0,0,0
+New York Post,358,0,0,0,0,0,0,0,1
+New York Post,359,0,0,0,0,0,0,0,0
+New York Post,306,1,0,0,0,1,0,0,0
+New York Post,360,0,0,0,0,0,0,0,0
+New York Post,361,0,0,0,0,0,0,0,0
+New York Post,362,0,0,0,0,0,0,0,0
+New York Post,363,0,0,0,0,0,0,0,0
+New York Post,364,0,0,0,0,0,0,0,0
+New York Post,365,0,0,0,0,0,0,0,0
+New York Post,366,0,0,0,0,0,0,0,0
+New York Post,367,0,0,0,0,0,0,0,0
+New York Post,368,0,0,0,0,0,0,0,0
+New York Post,369,0,0,0,0,0,0,0,0
+New York Post,307,0,0,0,0,0,0,0,0
+New York Post,370,0,0,0,0,0,0,0,0
+New York Post,371,0,0,0,0,0,0,0,0
+New York Post,372,0,0,0,0,0,0,0,0
+New York Post,373,0,0,0,0,0,0,0,0
+New York Post,374,0,0,0,0,0,0,0,0
+New York Post,375,0,0,0,0,0,0,0,0
+New York Post,376,0,0,0,0,0,0,0,0
+New York Post,377,0,1,0,0,0,0,0,0
+New York Post,378,0,0,0,0,0,0,0,0
+New York Post,379,0,0,0,0,0,0,0,0
+New York Post,308,0,0,0,0,0,0,0,0
+New York Post,380,0,0,0,0,0,0,0,0
+New York Post,381,0,0,0,0,0,0,0,0
+New York Post,382,0,0,0,0,0,0,0,0
+New York Post,383,0,1,0,0,0,0,0,0
+New York Post,384,0,0,0,0,0,0,0,0
+New York Post,385,0,0,0,0,0,0,0,0
+New York Post,386,0,0,0,0,0,0,0,0
+New York Post,387,0,0,0,0,0,0,0,0
+New York Post,388,0,0,0,0,0,0,0,0
+New York Post,389,0,0,0,0,0,0,0,0
+New York Post,309,0,0,0,0,0,0,0,0
+New York Post,390,0,0,0,0,0,0,0,0
+New York Post,391,0,1,0,0,0,0,0,0
+New York Post,392,0,0,0,0,0,0,0,0
+New York Post,393,0,0,0,0,0,0,0,0
+New York Post,394,0,1,0,0,0,0,0,0
+New York Post,395,0,0,0,0,0,0,0,0
+New York Post,396,0,0,0,0,0,0,0,0
+New York Post,397,0,0,0,0,0,0,0,0
+New York Post,398,0,0,0,0,0,0,0,0
+New York Post,399,0,0,0,0,0,0,0,0
+Reuters,501,0,0,0,0,0,0,0,0
+Reuters,600,0,0,0,0,0,0,0,0
+Reuters,601,0,0,0,0,0,0,0,0
+Reuters,511,0,1,0,0,0,0,0,0
+Reuters,512,0,0,0,0,0,0,0,0
+Reuters,513,0,0,0,0,0,0,0,0
+Reuters,514,0,0,0,0,0,0,0,0
+Reuters,515,0,1,1,0,0,0,0,0
+Reuters,516,0,0,0,0,0,0,0,0
+Reuters,517,1,0,0,0,0,1,0,0
+Reuters,518,0,0,0,0,0,0,0,0
+Reuters,519,0,1,1,0,0,0,0,0
+Reuters,502,0,0,0,0,0,0,0,0
+Reuters,520,0,0,0,0,0,0,0,0
+Reuters,521,0,0,0,0,0,0,0,0
+Reuters,522,0,0,0,0,0,0,0,0
+Reuters,523,0,0,0,0,0,0,0,0
+Reuters,524,0,0,0,0,0,0,0,0
+Reuters,525,0,0,0,0,0,0,0,0
+Reuters,526,0,0,0,0,0,0,0,0
+Reuters,527,0,0,0,0,0,0,0,0
+Reuters,528,0,0,0,0,0,0,0,0
+Reuters,529,0,0,0,0,0,0,0,0
+Reuters,503,0,0,0,0,0,0,0,0
+Reuters,530,0,0,0,0,0,0,0,0
+Reuters,531,0,1,0,0,0,0,0,0
+Reuters,532,0,0,0,0,0,0,0,0
+Reuters,533,0,0,0,0,0,0,0,0
+Reuters,534,0,0,0,0,0,0,0,0
+Reuters,535,0,1,0,0,0,0,0,0
+Reuters,536,0,0,0,0,0,0,0,0
+Reuters,537,0,0,0,0,0,0,0,0
+Reuters,538,0,0,0,0,0,0,0,0
+Reuters,539,0,0,0,0,0,0,0,0
+Reuters,504,0,0,0,0,0,0,0,0
+Reuters,540,0,0,0,0,0,0,0,0
+Reuters,541,0,0,0,0,0,0,0,0
+Reuters,542,0,0,0,0,0,0,0,0
+Reuters,543,0,0,0,0,0,0,0,0
+Reuters,544,0,0,0,0,0,0,0,0
+Reuters,545,0,0,0,0,0,0,0,0
+Reuters,546,0,0,0,0,0,0,0,0
+Reuters,547,0,0,0,0,0,0,0,0
+Reuters,548,0,0,0,0,0,0,0,0
+Reuters,549,0,1,0,0,0,0,0,0
+Reuters,505,0,1,0,0,0,0,0,0
+Reuters,550,0,1,1,0,0,0,0,0
+Reuters,551,0,0,0,0,0,0,0,0
+Reuters,552,0,0,0,0,0,0,0,0
+Reuters,553,0,0,0,0,0,0,0,0
+Reuters,554,0,0,0,0,0,0,0,0
+Reuters,555,0,0,0,0,0,0,0,0
+Reuters,556,0,0,0,0,0,0,0,0
+Reuters,557,0,0,0,0,0,0,0,0
+Reuters,558,0,0,0,0,0,0,0,0
+Reuters,559,0,0,0,0,0,0,0,0
+Reuters,506,0,0,0,0,0,0,0,0
+Reuters,560,0,0,0,0,0,0,0,0
+Reuters,561,0,1,0,0,0,0,0,0
+Reuters,562,0,1,0,0,0,0,0,0
+Reuters,563,0,0,0,0,0,0,0,0
+Reuters,564,0,0,0,0,0,0,0,0
+Reuters,565,0,0,0,0,0,0,0,0
+Reuters,566,0,0,0,0,0,0,0,0
+Reuters,567,0,0,0,0,0,0,0,1
+Reuters,568,1,0,0,0,0,0,0,0
+Reuters,569,0,0,0,0,0,0,0,0
+Reuters,507,0,0,0,0,0,0,0,0
+Reuters,570,0,1,0,0,0,0,0,0
+Reuters,571,0,1,0,0,0,0,0,0
+Reuters,572,0,0,0,0,0,0,0,1
+Reuters,573,0,0,0,0,0,0,0,0
+Reuters,574,0,0,0,0,0,0,0,0
+Reuters,575,0,0,0,0,0,0,0,0
+Reuters,576,0,0,0,0,0,0,0,0
+Reuters,577,0,1,0,0,0,0,0,0
+Reuters,578,0,0,0,0,0,0,0,0
+Reuters,579,0,0,0,0,0,0,0,0
+Reuters,508,0,1,0,0,0,0,0,0
+Reuters,580,0,0,0,0,0,0,0,0
+Reuters,581,0,0,0,0,0,0,0,0
+Reuters,582,0,1,0,0,0,0,0,0
+Reuters,583,0,0,0,0,0,0,0,0
+Reuters,584,0,0,0,0,0,0,0,0
+Reuters,585,0,0,0,0,0,0,0,0
+Reuters,586,0,0,0,0,0,0,0,0
+Reuters,587,0,1,0,0,0,0,0,0
+Reuters,588,0,0,0,0,0,0,0,0
+Reuters,589,0,1,1,0,0,0,0,0
+Reuters,509,0,1,0,0,0,0,0,0
+Reuters,590,0,0,0,0,0,0,0,0
+Reuters,591,0,0,0,0,0,0,0,1
+Reuters,592,0,0,0,0,0,0,0,0
+Reuters,593,0,0,0,0,0,0,0,0
+Reuters,594,0,0,0,0,0,0,0,1
+Reuters,595,0,1,0,0,0,0,0,0
+Reuters,596,0,0,0,0,0,0,0,0
+Reuters,597,0,0,0,0,0,0,0,0
+Reuters,598,0,0,0,0,0,0,0,0
+Reuters,599,0,0,0,0,0,0,0,0
+Star Tribune,601,0,1,0,0,0,0,0,0
+Star Tribune,700,0,0,0,0,0,0,0,0
+Star Tribune,701,0,0,0,0,0,0,0,0
+Star Tribune,611,0,0,0,0,0,0,0,0
+Star Tribune,612,0,0,0,0,0,0,0,0
+Star Tribune,613,0,0,0,0,0,0,0,1
+Star Tribune,614,0,0,0,0,0,0,0,0
+Star Tribune,615,0,0,0,0,0,0,0,0
+Star Tribune,616,1,1,0,0,0,0,0,0
+Star Tribune,617,0,1,0,0,0,0,0,0
+Star Tribune,618,0,0,0,0,0,0,0,0
+Star Tribune,619,0,1,1,0,0,0,0,0
+Star Tribune,602,0,0,0,0,0,0,0,0
+Star Tribune,620,1,1,0,1,0,0,0,0
+Star Tribune,621,0,0,0,0,0,0,0,0
+Star Tribune,622,0,0,0,0,0,0,0,0
+Star Tribune,623,0,1,0,0,0,0,0,0
+Star Tribune,624,0,0,0,0,0,0,0,0
+Star Tribune,625,0,0,1,0,0,0,0,0
+Star Tribune,626,0,0,0,0,0,0,0,0
+Star Tribune,627,0,0,0,0,0,0,0,0
+Star Tribune,628,0,1,1,0,0,0,0,0
+Star Tribune,629,0,0,0,0,0,0,0,0
+Star Tribune,603,0,1,0,0,0,0,0,0
+Star Tribune,630,0,0,0,0,0,0,0,0
+Star Tribune,631,0,0,0,0,0,0,0,0
+Star Tribune,632,0,0,0,0,0,0,0,0
+Star Tribune,633,0,0,0,0,0,0,0,1
+Star Tribune,634,0,0,0,0,0,0,0,0
+Star Tribune,635,0,0,0,0,0,0,0,0
+Star Tribune,636,1,1,0,0,0,1,0,1
+Star Tribune,637,0,1,0,0,0,0,0,0
+Star Tribune,638,0,0,0,0,0,0,0,0
+Star Tribune,639,1,0,0,0,0,0,0,0
+Star Tribune,604,0,0,0,0,0,0,0,0
+Star Tribune,640,0,0,0,0,0,0,0,0
+Star Tribune,641,1,1,0,0,0,0,0,1
+Star Tribune,642,0,0,0,0,0,0,0,0
+Star Tribune,643,0,0,0,0,0,0,0,0
+Star Tribune,644,0,0,0,0,0,0,0,0
+Star Tribune,645,0,1,1,0,0,0,0,0
+Star Tribune,646,0,0,0,0,0,0,0,0
+Star Tribune,647,1,0,0,0,0,0,0,0
+Star Tribune,648,1,0,1,0,0,0,0,0
+Star Tribune,649,0,0,0,0,0,0,0,0
+Star Tribune,605,0,1,0,0,0,0,0,0
+Star Tribune,650,0,0,0,0,0,0,0,0
+Star Tribune,651,0,0,0,0,0,0,0,0
+Star Tribune,652,0,1,0,0,0,0,0,0
+Star Tribune,653,0,0,0,0,0,0,0,0
+Star Tribune,654,0,0,0,0,0,0,0,0
+Star Tribune,655,0,0,0,0,0,0,0,0
+Star Tribune,656,0,0,0,0,0,0,0,0
+Star Tribune,657,1,1,0,0,0,0,0,0
+Star Tribune,658,0,0,0,0,0,0,0,0
+Star Tribune,659,0,0,0,0,0,0,0,0
+Star Tribune,606,0,0,0,0,0,0,0,0
+Star Tribune,660,0,1,1,0,0,0,0,0
+Star Tribune,661,0,0,0,0,0,0,0,0
+Star Tribune,662,0,1,0,0,0,0,0,0
+Star Tribune,663,0,0,0,0,0,0,0,0
+Star Tribune,664,0,1,0,0,0,0,0,0
+Star Tribune,665,0,1,1,0,0,0,0,0
+Star Tribune,666,0,0,1,0,0,0,0,0
+Star Tribune,667,1,1,0,0,0,0,0,0
+Star Tribune,668,0,1,0,0,0,0,0,0
+Star Tribune,669,0,0,0,0,0,0,0,0
+Star Tribune,607,0,0,0,0,0,0,0,0
+Star Tribune,670,0,1,0,0,0,0,0,0
+Star Tribune,671,0,0,0,0,0,0,0,0
+Star Tribune,672,0,1,0,0,0,0,0,0
+Star Tribune,673,0,0,0,0,0,0,0,0
+Star Tribune,674,0,0,0,0,0,0,0,0
+Star Tribune,675,1,1,1,0,0,0,0,1
+Star Tribune,676,0,0,0,0,0,0,0,0
+Star Tribune,677,0,0,0,0,0,0,0,0
+Star Tribune,678,0,1,0,0,0,0,0,0
+Star Tribune,679,0,0,0,0,0,0,0,0
+Star Tribune,608,1,0,0,0,0,0,1,0
+Star Tribune,680,0,1,0,0,0,0,0,0
+Star Tribune,681,0,0,0,0,0,0,0,0
+Star Tribune,682,0,0,0,0,0,0,0,0
+Star Tribune,683,0,0,0,0,0,0,0,0
+Star Tribune,684,0,1,0,0,0,0,0,0
+Star Tribune,685,1,1,1,0,0,0,0,0
+Star Tribune,686,0,0,0,0,0,0,0,0
+Star Tribune,687,0,0,0,0,0,0,0,1
+Star Tribune,688,0,1,0,0,0,0,0,0
+Star Tribune,689,1,1,1,0,0,0,0,0
+Star Tribune,609,1,1,0,0,0,0,0,0
+Star Tribune,690,0,0,0,0,0,0,0,0
+Star Tribune,691,0,0,0,0,0,0,0,0
+Star Tribune,692,0,0,0,0,0,0,0,0
+Star Tribune,693,0,0,0,0,0,0,0,0
+Star Tribune,694,0,0,0,0,0,0,0,0
+Star Tribune,695,0,0,0,0,0,0,0,0
+Star Tribune,696,1,1,0,0,0,0,0,0
+Star Tribune,697,0,0,0,0,0,0,0,0
+Star Tribune,698,0,0,0,0,0,0,0,0
+Star Tribune,699,0,1,0,0,0,0,0,0
+The Boston Globe,801,0,0,0,0,0,0,0,0
+The Boston Globe,810,0,0,0,0,0,0,0,0
+The Boston Globe,900,0,0,0,0,0,0,0,0
+The Boston Globe,811,0,0,0,0,0,0,0,0
+The Boston Globe,812,0,0,0,0,0,0,0,0
+The Boston Globe,813,0,1,1,0,0,0,0,0
+The Boston Globe,814,0,0,0,0,0,0,0,0
+The Boston Globe,815,0,1,1,0,0,0,0,0
+The Boston Globe,816,0,0,0,0,0,0,0,0
+The Boston Globe,817,0,0,0,0,0,0,0,0
+The Boston Globe,818,0,0,0,0,0,0,0,0
+The Boston Globe,819,0,0,0,0,0,0,0,0
+The Boston Globe,802,0,0,0,0,0,0,0,0
+The Boston Globe,820,1,0,0,0,0,0,0,0
+The Boston Globe,821,0,0,0,0,0,0,0,0
+The Boston Globe,822,0,0,0,0,0,0,0,0
+The Boston Globe,823,0,0,0,0,0,0,0,0
+The Boston Globe,824,0,0,0,0,0,0,0,0
+The Boston Globe,825,0,0,0,0,0,0,0,0
+The Boston Globe,826,0,1,0,0,0,0,0,0
+The Boston Globe,827,1,1,0,0,0,0,1,0
+The Boston Globe,828,0,0,0,0,0,0,0,0
+The Boston Globe,829,0,0,0,0,0,0,0,0
+The Boston Globe,803,0,0,0,0,0,0,0,0
+The Boston Globe,830,0,0,0,0,0,0,0,0
+The Boston Globe,831,0,0,1,0,0,0,0,0
+The Boston Globe,832,0,0,1,0,0,0,0,0
+The Boston Globe,833,1,0,0,0,0,0,1,0
+The Boston Globe,834,0,1,0,0,0,0,0,0
+The Boston Globe,835,0,0,0,0,0,0,0,0
+The Boston Globe,836,0,0,0,0,0,0,0,0
+The Boston Globe,837,1,1,0,0,0,0,0,1
+The Boston Globe,838,0,0,0,0,0,0,0,0
+The Boston Globe,839,0,1,0,0,0,0,0,0
+The Boston Globe,804,0,1,0,0,0,0,0,0
+The Boston Globe,840,1,0,0,0,0,0,0,0
+The Boston Globe,841,0,0,0,0,0,0,0,0
+The Boston Globe,842,1,1,0,0,1,0,0,0
+The Boston Globe,843,1,0,0,0,0,0,1,0
+The Boston Globe,844,0,1,0,0,0,0,0,0
+The Boston Globe,845,0,0,0,0,0,0,0,0
+The Boston Globe,846,1,0,0,0,0,0,1,0
+The Boston Globe,847,0,0,0,0,0,0,0,0
+The Boston Globe,848,0,0,0,0,0,0,0,0
+The Boston Globe,849,1,1,0,0,0,0,0,0
+The Boston Globe,805,0,0,0,0,0,0,0,0
+The Boston Globe,850,0,0,0,0,0,0,0,0
+The Boston Globe,851,1,0,0,0,0,0,1,0
+The Boston Globe,852,0,0,0,0,0,0,0,0
+The Boston Globe,853,1,0,0,0,0,0,0,0
+The Boston Globe,854,0,0,0,0,0,0,0,0
+The Boston Globe,855,0,0,0,0,0,0,0,0
+The Boston Globe,856,0,0,0,0,0,0,0,0
+The Boston Globe,857,0,0,0,0,0,0,0,0
+The Boston Globe,858,0,1,0,0,0,0,0,0
+The Boston Globe,859,0,0,0,0,0,0,0,0
+The Boston Globe,806,0,0,0,0,0,0,0,1
+The Boston Globe,860,0,0,0,0,0,0,0,0
+The Boston Globe,861,0,0,0,0,0,0,0,0
+The Boston Globe,862,0,0,0,0,0,0,0,0
+The Boston Globe,863,0,0,0,0,0,0,0,0
+The Boston Globe,864,0,0,0,0,0,0,0,0
+The Boston Globe,865,0,1,0,0,0,0,0,0
+The Boston Globe,866,0,0,0,0,0,0,0,0
+The Boston Globe,867,0,0,0,0,0,0,0,0
+The Boston Globe,868,0,1,0,0,0,0,0,0
+The Boston Globe,869,0,0,0,0,0,0,0,0
+The Boston Globe,807,0,0,0,0,0,0,0,0
+The Boston Globe,870,0,0,0,0,0,0,0,0
+The Boston Globe,871,0,0,0,0,0,0,0,0
+The Boston Globe,872,0,0,0,0,0,0,0,0
+The Boston Globe,873,0,0,0,0,0,0,0,0
+The Boston Globe,874,0,0,0,0,0,0,0,0
+The Boston Globe,875,0,0,0,0,0,0,0,0
+The Boston Globe,876,0,0,0,0,0,0,0,0
+The Boston Globe,877,0,0,0,0,0,0,0,0
+The Boston Globe,878,0,0,0,0,0,0,0,0
+The Boston Globe,879,0,1,0,0,0,0,0,0
+The Boston Globe,808,0,0,0,0,0,0,0,0
+The Boston Globe,880,0,0,0,0,0,0,0,0
+The Boston Globe,881,0,1,0,0,0,0,0,0
+The Boston Globe,882,0,0,0,0,0,0,0,0
+The Boston Globe,883,0,1,0,0,0,0,0,0
+The Boston Globe,884,0,0,0,0,0,0,0,0
+The Boston Globe,885,1,1,0,0,0,0,1,0
+The Boston Globe,886,0,0,0,0,0,0,0,0
+The Boston Globe,887,0,0,0,0,0,0,0,0
+The Boston Globe,888,0,0,0,0,0,0,0,0
+The Boston Globe,889,0,0,0,0,0,0,0,0
+The Boston Globe,809,0,0,0,0,0,0,0,0
+The Boston Globe,890,0,0,0,0,0,0,0,0
+The Boston Globe,891,0,0,0,0,0,0,0,0
+The Boston Globe,892,0,0,0,0,0,0,0,0
+The Boston Globe,893,0,1,0,0,0,0,0,0
+The Boston Globe,894,0,0,0,0,0,0,0,0
+The Boston Globe,895,0,0,0,0,0,0,0,0
+The Boston Globe,896,0,0,0,0,0,0,0,0
+The Boston Globe,897,0,0,0,0,0,0,0,0
+The Boston Globe,898,0,0,0,0,0,0,0,0
+The Boston Globe,899,0,0,0,0,0,0,0,0
+The New York Times,201,0,0,0,0,0,0,0,0
+The New York Times,210,0,0,0,0,0,0,0,0
+The New York Times,300,1,0,0,0,1,0,0,0
+The New York Times,211,0,0,0,0,0,0,0,0
+The New York Times,212,1,1,0,0,0,0,0,0
+The New York Times,213,0,0,0,0,0,0,0,0
+The New York Times,214,0,0,0,0,0,0,0,0
+The New York Times,215,1,0,0,1,0,0,0,0
+The New York Times,216,0,0,0,0,0,0,0,0
+The New York Times,217,0,0,0,0,0,0,0,0
+The New York Times,218,0,0,0,0,0,0,0,0
+The New York Times,219,0,0,0,0,0,0,0,0
+The New York Times,202,0,0,0,0,0,0,0,0
+The New York Times,220,0,0,0,0,0,0,0,0
+The New York Times,221,0,0,0,0,0,0,0,0
+The New York Times,222,0,0,0,0,0,0,0,0
+The New York Times,223,0,0,0,0,0,0,0,0
+The New York Times,224,0,0,0,0,0,0,0,0
+The New York Times,225,1,0,0,0,0,0,0,0
+The New York Times,226,0,0,0,0,0,0,0,0
+The New York Times,227,0,0,0,0,0,0,0,0
+The New York Times,228,0,0,0,0,0,0,0,0
+The New York Times,229,0,0,0,0,0,0,0,0
+The New York Times,203,0,0,0,0,0,0,0,0
+The New York Times,230,0,1,0,0,0,0,0,0
+The New York Times,231,0,0,0,0,0,0,0,0
+The New York Times,232,0,0,0,0,0,0,0,0
+The New York Times,233,0,0,0,0,0,0,0,0
+The New York Times,234,0,0,0,0,0,0,0,0
+The New York Times,235,0,0,0,0,0,0,0,0
+The New York Times,236,0,0,0,0,0,0,0,0
+The New York Times,237,1,1,0,0,0,0,1,0
+The New York Times,238,0,0,0,0,0,0,0,0
+The New York Times,239,0,0,0,0,0,0,0,0
+The New York Times,204,0,0,0,0,0,0,0,0
+The New York Times,240,0,0,0,0,0,0,0,0
+The New York Times,241,0,0,0,0,0,0,0,0
+The New York Times,242,0,1,0,0,0,0,0,0
+The New York Times,243,0,0,0,0,0,0,0,1
+The New York Times,244,0,0,0,0,0,0,0,1
+The New York Times,245,0,1,0,0,0,0,0,0
+The New York Times,246,1,1,0,0,0,0,0,0
+The New York Times,247,1,1,0,0,0,0,1,0
+The New York Times,248,1,1,1,0,0,0,0,0
+The New York Times,249,0,0,0,0,0,0,0,0
+The New York Times,205,0,0,0,0,0,0,0,0
+The New York Times,250,0,0,0,0,0,0,0,0
+The New York Times,251,0,0,0,0,0,0,0,0
+The New York Times,252,0,0,0,0,0,0,0,0
+The New York Times,253,0,1,0,0,0,0,0,0
+The New York Times,254,0,0,0,0,0,0,0,0
+The New York Times,255,0,0,0,0,0,0,0,0
+The New York Times,256,0,0,0,0,0,0,0,1
+The New York Times,257,0,0,0,0,0,0,0,0
+The New York Times,258,0,0,0,0,0,0,0,0
+The New York Times,259,0,0,0,0,0,0,0,0
+The New York Times,206,0,0,0,0,0,0,0,0
+The New York Times,260,0,0,0,0,0,0,0,0
+The New York Times,261,0,0,0,0,0,0,0,0
+The New York Times,262,0,0,0,0,0,0,0,0
+The New York Times,263,0,0,0,0,0,0,0,1
+The New York Times,264,0,0,0,0,0,0,0,0
+The New York Times,265,0,0,0,0,0,0,0,0
+The New York Times,266,1,0,0,1,0,0,0,1
+The New York Times,267,0,1,0,0,0,0,0,0
+The New York Times,268,0,0,0,0,0,0,0,0
+The New York Times,269,1,1,1,1,0,0,0,0
+The New York Times,207,0,0,0,0,0,0,0,0
+The New York Times,270,0,0,0,0,0,0,0,0
+The New York Times,271,1,1,0,0,0,0,0,0
+The New York Times,272,0,0,0,0,0,0,0,0
+The New York Times,273,0,0,0,0,0,0,0,0
+The New York Times,274,0,0,0,0,0,0,0,0
+The New York Times,275,1,0,0,0,0,0,1,0
+The New York Times,276,0,1,1,0,0,0,0,0
+The New York Times,277,0,0,0,0,0,0,0,0
+The New York Times,278,0,0,0,0,0,0,0,0
+The New York Times,279,0,0,0,0,0,0,0,0
+The New York Times,208,0,1,0,0,0,0,0,0
+The New York Times,280,0,0,0,0,0,0,0,0
+The New York Times,281,0,0,0,0,0,0,0,0
+The New York Times,282,0,1,1,0,0,0,0,1
+The New York Times,283,0,1,0,0,0,0,0,0
+The New York Times,284,1,1,0,0,0,0,0,0
+The New York Times,285,0,0,0,0,0,0,0,0
+The New York Times,286,0,0,0,0,0,0,0,0
+The New York Times,287,0,0,0,0,0,0,0,0
+The New York Times,288,0,0,0,0,0,0,0,0
+The New York Times,289,0,0,0,0,0,0,0,0
+The New York Times,209,0,0,0,0,0,0,0,0
+The New York Times,290,0,0,0,0,0,0,0,0
+The New York Times,291,0,0,0,0,0,0,0,0
+The New York Times,292,0,1,0,0,0,0,0,0
+The New York Times,293,0,0,0,0,0,0,0,1
+The New York Times,294,0,0,0,0,0,0,0,0
+The New York Times,295,0,1,0,0,0,0,0,0
+The New York Times,296,0,0,0,0,0,0,0,0
+The New York Times,297,0,0,0,0,0,0,0,1
+The New York Times,298,0,1,0,0,0,0,0,0
+The New York Times,299,0,0,0,0,0,0,0,0
+The Wall Street Journal,101,0,1,0,0,0,0,0,1
+The Wall Street Journal,110,0,0,0,0,0,0,0,0
+The Wall Street Journal,200,0,0,0,0,0,0,0,0
+The Wall Street Journal,111,0,0,0,0,0,0,0,0
+The Wall Street Journal,112,0,0,0,0,0,0,0,0
+The Wall Street Journal,113,0,0,0,0,0,0,0,0
+The Wall Street Journal,114,0,0,0,0,0,0,0,0
+The Wall Street Journal,115,0,0,0,0,0,0,0,0
+The Wall Street Journal,116,0,0,0,0,0,0,0,1
+The Wall Street Journal,117,0,0,0,0,0,0,0,0
+The Wall Street Journal,118,0,0,0,0,0,0,0,1
+The Wall Street Journal,119,0,0,0,0,0,0,0,0
+The Wall Street Journal,102,0,0,0,0,0,0,0,0
+The Wall Street Journal,120,0,0,0,0,0,0,0,0
+The Wall Street Journal,121,0,1,0,0,0,0,0,0
+The Wall Street Journal,122,0,0,0,0,0,0,0,0
+The Wall Street Journal,123,0,0,0,0,0,0,0,0
+The Wall Street Journal,124,0,0,0,0,0,0,0,0
+The Wall Street Journal,125,0,1,1,0,0,0,0,0
+The Wall Street Journal,126,0,0,0,0,0,0,0,0
+The Wall Street Journal,127,0,0,0,0,0,0,0,0
+The Wall Street Journal,128,0,0,0,0,0,0,0,0
+The Wall Street Journal,129,0,1,1,0,0,0,0,0
+The Wall Street Journal,103,0,0,0,0,0,0,0,0
+The Wall Street Journal,130,0,0,1,0,0,0,0,0
+The Wall Street Journal,131,0,0,0,0,0,0,0,0
+The Wall Street Journal,132,0,0,0,0,0,0,0,0
+The Wall Street Journal,133,0,0,0,0,0,0,0,0
+The Wall Street Journal,134,0,0,0,0,0,0,0,0
+The Wall Street Journal,135,0,0,0,0,0,0,0,0
+The Wall Street Journal,136,0,0,0,0,0,0,0,0
+The Wall Street Journal,137,0,0,0,0,0,0,0,0
+The Wall Street Journal,138,0,0,0,0,0,0,0,0
+The Wall Street Journal,139,0,1,0,0,0,0,0,0
+The Wall Street Journal,104,0,0,0,0,0,0,0,0
+The Wall Street Journal,140,0,0,0,0,0,0,0,0
+The Wall Street Journal,141,0,1,0,0,0,0,0,0
+The Wall Street Journal,142,0,0,0,0,0,0,0,0
+The Wall Street Journal,143,0,0,0,0,0,0,0,0
+The Wall Street Journal,144,0,0,0,0,0,0,0,0
+The Wall Street Journal,145,0,0,0,0,0,0,0,0
+The Wall Street Journal,146,0,0,0,0,0,0,0,0
+The Wall Street Journal,147,0,0,0,0,0,0,0,0
+The Wall Street Journal,148,0,0,0,0,0,0,0,0
+The Wall Street Journal,149,0,0,0,0,0,0,0,0
+The Wall Street Journal,105,0,0,0,0,0,0,0,0
+The Wall Street Journal,150,0,0,0,0,0,0,0,0
+The Wall Street Journal,151,0,0,0,0,0,0,0,0
+The Wall Street Journal,152,0,0,0,0,0,0,0,0
+The Wall Street Journal,153,0,0,0,0,0,0,0,0
+The Wall Street Journal,154,0,0,0,0,0,0,0,0
+The Wall Street Journal,155,0,0,0,0,0,0,0,0
+The Wall Street Journal,156,0,0,0,0,0,0,0,0
+The Wall Street Journal,157,0,0,0,0,0,0,0,0
+The Wall Street Journal,158,0,0,0,0,0,0,0,0
+The Wall Street Journal,159,0,0,0,0,0,0,0,0
+The Wall Street Journal,106,0,1,0,0,0,0,0,0
+The Wall Street Journal,160,0,0,0,0,0,0,0,0
+The Wall Street Journal,161,0,0,0,0,0,0,0,0
+The Wall Street Journal,162,0,0,0,0,0,0,0,0
+The Wall Street Journal,163,0,0,0,0,0,0,0,0
+The Wall Street Journal,164,0,1,0,0,0,0,0,1
+The Wall Street Journal,165,0,0,0,0,0,0,0,0
+The Wall Street Journal,166,0,0,0,0,0,0,0,0
+The Wall Street Journal,167,0,0,0,0,0,0,0,0
+The Wall Street Journal,168,0,0,0,0,0,0,0,0
+The Wall Street Journal,169,0,0,0,0,0,0,0,0
+The Wall Street Journal,107,0,1,0,0,0,0,0,1
+The Wall Street Journal,170,0,0,0,0,0,0,0,0
+The Wall Street Journal,171,0,0,0,0,0,0,0,0
+The Wall Street Journal,172,0,0,0,0,0,0,0,0
+The Wall Street Journal,173,0,0,0,0,0,0,0,0
+The Wall Street Journal,174,0,0,0,0,0,0,0,0
+The Wall Street Journal,175,0,0,0,0,0,0,0,0
+The Wall Street Journal,176,0,0,0,0,0,0,0,0
+The Wall Street Journal,177,0,0,0,0,0,0,0,0
+The Wall Street Journal,178,0,1,0,0,0,0,0,0
+The Wall Street Journal,179,0,0,0,0,0,0,0,0
+The Wall Street Journal,108,0,0,0,0,0,0,0,0
+The Wall Street Journal,180,0,0,0,0,0,0,0,0
+The Wall Street Journal,181,0,1,0,0,0,0,0,0
+The Wall Street Journal,182,0,0,0,0,0,0,0,0
+The Wall Street Journal,183,0,0,0,0,0,0,0,0
+The Wall Street Journal,184,0,0,0,0,0,0,0,0
+The Wall Street Journal,185,0,0,0,0,0,0,0,0
+The Wall Street Journal,186,0,0,0,0,0,0,0,0
+The Wall Street Journal,187,0,0,0,0,0,0,0,0
+The Wall Street Journal,188,0,0,0,0,0,0,0,0
+The Wall Street Journal,189,0,0,0,0,0,0,0,0
+The Wall Street Journal,109,0,0,0,0,0,0,0,0
+The Wall Street Journal,190,0,1,0,0,0,0,0,0
+The Wall Street Journal,191,0,0,0,0,0,0,0,0
+The Wall Street Journal,192,0,0,0,0,0,0,0,0
+The Wall Street Journal,193,0,0,0,0,0,0,0,0
+The Wall Street Journal,194,0,0,0,0,0,0,0,0
+The Wall Street Journal,195,0,1,0,0,0,0,0,0
+The Wall Street Journal,196,0,0,0,0,0,0,0,0
+The Wall Street Journal,197,0,1,0,0,0,0,0,0
+The Wall Street Journal,198,0,0,0,0,0,0,0,0
+The Wall Street Journal,199,0,0,0,0,0,0,0,0
+The Washington Post,401,0,0,0,0,0,0,0,1
+The Washington Post,500,0,0,0,0,0,0,0,0
+The Washington Post,501,0,0,0,0,0,0,0,0
+The Washington Post,411,0,1,0,0,0,0,0,0
+The Washington Post,412,0,0,0,0,0,0,0,0
+The Washington Post,413,0,0,0,0,0,0,0,0
+The Washington Post,414,0,0,0,0,0,0,0,0
+The Washington Post,415,0,0,0,0,0,0,0,1
+The Washington Post,416,1,1,0,0,0,0,0,0
+The Washington Post,417,1,1,1,0,0,0,0,1
+The Washington Post,418,0,0,0,0,0,0,0,0
+The Washington Post,419,1,0,0,0,0,0,1,0
+The Washington Post,402,0,0,0,0,0,0,0,0
+The Washington Post,420,1,0,0,0,0,0,1,0
+The Washington Post,421,0,0,0,0,0,0,0,0
+The Washington Post,422,0,1,0,0,0,0,0,1
+The Washington Post,423,0,0,0,0,0,0,0,1
+The Washington Post,424,0,1,0,0,0,0,0,0
+The Washington Post,425,0,0,0,0,0,0,0,0
+The Washington Post,426,0,0,0,0,0,0,0,0
+The Washington Post,427,1,1,0,0,0,1,0,1
+The Washington Post,428,0,0,0,0,0,0,0,1
+The Washington Post,429,0,0,0,0,0,0,0,0
+The Washington Post,403,0,0,0,0,0,0,0,0
+The Washington Post,430,0,0,0,0,0,0,0,0
+The Washington Post,431,0,0,0,0,0,0,0,0
+The Washington Post,432,0,1,0,0,0,0,0,0
+The Washington Post,433,0,0,0,0,0,0,0,0
+The Washington Post,434,0,1,1,0,0,0,0,0
+The Washington Post,435,0,1,0,0,0,0,0,0
+The Washington Post,436,0,0,0,0,0,0,0,0
+The Washington Post,437,1,0,0,0,0,0,1,0
+The Washington Post,438,0,1,0,0,0,0,0,0
+The Washington Post,439,0,0,0,0,0,0,0,0
+The Washington Post,404,0,0,0,0,0,0,0,0
+The Washington Post,440,0,0,0,0,0,0,0,0
+The Washington Post,441,0,0,0,0,0,0,0,0
+The Washington Post,442,0,0,0,0,0,0,0,0
+The Washington Post,443,0,0,0,0,0,0,0,0
+The Washington Post,444,0,0,0,0,0,0,0,1
+The Washington Post,445,0,0,0,0,0,0,0,1
+The Washington Post,446,0,1,0,0,0,0,0,0
+The Washington Post,447,0,0,1,0,0,0,0,0
+The Washington Post,448,0,1,0,0,0,0,0,0
+The Washington Post,449,0,0,0,0,0,0,0,0
+The Washington Post,405,0,0,0,0,0,0,0,0
+The Washington Post,450,0,0,0,0,0,0,0,0
+The Washington Post,451,0,0,0,0,0,0,0,0
+The Washington Post,452,0,0,0,0,0,0,0,0
+The Washington Post,453,0,0,0,0,0,0,0,0
+The Washington Post,454,0,0,0,0,0,0,0,0
+The Washington Post,455,0,0,0,0,0,0,0,0
+The Washington Post,456,1,0,0,0,0,0,0,0
+The Washington Post,457,0,0,0,0,0,0,0,0
+The Washington Post,458,0,0,0,0,0,0,0,0
+The Washington Post,459,0,0,0,0,0,0,0,1
+The Washington Post,406,0,0,0,0,0,0,0,0
+The Washington Post,460,0,0,0,0,0,0,0,0
+The Washington Post,461,0,0,0,0,0,0,0,0
+The Washington Post,462,0,0,0,0,0,0,0,0
+The Washington Post,463,0,0,0,0,0,0,0,0
+The Washington Post,464,0,0,0,0,0,0,0,0
+The Washington Post,465,0,0,0,0,0,0,0,0
+The Washington Post,466,1,0,0,0,0,0,0,0
+The Washington Post,467,0,1,0,0,0,0,0,0
+The Washington Post,468,0,0,0,0,0,0,0,0
+The Washington Post,469,0,0,0,0,0,0,0,0
+The Washington Post,407,0,0,0,0,0,0,0,0
+The Washington Post,470,0,0,0,0,0,0,0,0
+The Washington Post,471,0,0,0,0,0,0,0,0
+The Washington Post,472,0,0,0,0,0,0,0,0
+The Washington Post,473,0,0,0,0,0,0,0,0
+The Washington Post,474,0,1,0,0,0,0,0,0
+The Washington Post,475,0,0,0,0,0,0,0,0
+The Washington Post,476,0,0,0,0,0,0,0,0
+The Washington Post,477,0,0,0,0,0,0,0,0
+The Washington Post,478,0,0,0,0,0,0,0,0
+The Washington Post,479,0,0,0,0,0,0,0,0
+The Washington Post,408,0,0,0,0,0,0,0,0
+The Washington Post,480,0,1,0,0,0,0,0,0
+The Washington Post,481,0,0,0,0,0,0,0,0
+The Washington Post,482,0,1,0,0,0,0,0,1
+The Washington Post,483,0,0,0,0,0,0,0,0
+The Washington Post,484,0,0,0,0,0,0,0,1
+The Washington Post,485,0,0,0,0,0,0,0,0
+The Washington Post,486,0,1,0,0,0,0,0,0
+The Washington Post,487,0,0,0,0,0,0,0,0
+The Washington Post,488,0,0,0,0,0,0,0,0
+The Washington Post,489,0,0,0,0,0,0,0,0
+The Washington Post,409,0,0,0,0,0,0,0,0
+The Washington Post,490,0,0,0,0,0,0,0,0
+The Washington Post,491,0,0,0,0,0,0,0,0
+The Washington Post,492,0,0,0,0,0,0,0,0
+The Washington Post,493,0,1,0,0,0,0,0,0
+The Washington Post,494,1,1,0,0,0,0,1,0
+The Washington Post,495,1,0,0,0,0,0,0,0
+The Washington Post,496,0,0,0,0,0,0,0,0
+The Washington Post,497,0,0,0,0,0,0,0,0
+The Washington Post,498,0,1,0,0,0,0,0,0
+The Washington Post,499,1,1,0,0,0,0,0,0
