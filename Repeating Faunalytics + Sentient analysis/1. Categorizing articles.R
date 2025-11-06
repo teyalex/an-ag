@@ -5,6 +5,9 @@
 
 ## Comments added in the Center's version are set off by double octothorpes (##) and a space.
 
+## NOTE: Lines that download files to the user's computer are commented out.
+   ## To save the CSV files, use a CMND-F/CTRL-F find-replace to replace "# write" with "write".
+
 #Clear workspace
 rm(list = ls())
 
@@ -20,6 +23,14 @@ library(tidyverse)
 library(writexl)
 
 #read in articles
+  
+  ## We named the file for each article with the name of its publication followed by
+    ## a sequential number, separated by an underscore (e.g. Chicago Tribune_78.rtf).
+    ## These files were organized in folders for each publication, where were all
+    ## organized in a folder called "corpus". To import all files ending in ".rtf"
+    ## from all folders in the directory "corpus", our file path was "corpus/*/*.rtf"—
+    ## but adjust accordingly for your folder structure.
+  
 dataframe <- readtext("corpus/*/*.rtf",
                       docvarsfrom = "filenames",
                       docvarnames = c("source", "number"),
@@ -266,8 +277,6 @@ categorized.articles <- df[,3:16]
 
 an.ag <- df[, c(3:7, 17:21)]
  
-#write_csv(categorized.articles, "Categorized articles.csv",
-           #col_names = T) #File with articles categorized into 10 climate themes
+# write_csv(categorized.articles, "Categorized articles.csv", col_names = T) #File with articles categorized into 10 climate themes
 
-#write_csv(an.ag, "Animal Ag articles.csv",
-          #col_names = T) #File containing mentions of animal agriculture keywords
+# write_csv(an.ag, "Animal Ag articles.csv", col_names = T) #File containing mentions of animal agriculture keywords

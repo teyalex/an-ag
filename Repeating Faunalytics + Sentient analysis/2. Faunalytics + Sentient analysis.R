@@ -8,8 +8,8 @@
   ## https://biologicaldiversity.org | https://alextey.co | https://github.com/teyalex
 
   ## NOTE: Lines that download files to the user's computer are commented out.
-    ## If you do want to save JPGs of the plots and a CSV of one table, use a CMND-F/CTRL-F find-replace to
-    ## replace "# ggsave" with "ggsave" and "# write" with "write".
+    ## If you do want to save JPGs of the plots, use a CMND-F/CTRL-F find-replace to
+    ## replace "# ggsave" with "ggsave".
 
 #Clear workspace
 rm(list = ls())
@@ -106,12 +106,15 @@ code.counts <- code.counts %>%
         select(source, number) %>%
         arrange(number)
       
-      # write_csv(df_an.ag, "an.ag articles.csv", col_names = T)
+      ## We used this next line to create a CSV file where I hand-coded (in Excel) the contexts in which
+        ## those articles mentioned animal agriculture. The 
+      
+      ## write_csv(df_an.ag, "Coded articles.csv", col_names = T)
       
     ## Creating data frames from coding articles as mentioning animal agriculture in the
       ## context of being "cause" or suffering a "consequence" or climate change
       
-      an.ag_codes <- read.csv("an.ag articles.csv") %>%
+      an.ag_codes <- read.csv("Coded articles.csv") %>%
         mutate(context = case_when(cause == 1 & consequence == 0 ~ "cause_only",
                                    cause == 0 & consequence == 1 ~ "consequence_only",
                                    cause == 1 & consequence == 1 ~ "both",
