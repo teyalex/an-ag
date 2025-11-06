@@ -106,10 +106,12 @@ code.counts <- code.counts %>%
         select(source, number) %>%
         arrange(number)
       
-      ## We used this next line to create a CSV file where I hand-coded (in Excel) the contexts in which
-        ## those articles mentioned animal agriculture. The 
+      ## We used the commented-out line 114 to create a CSV file where I hand-coded (in Excel) the contexts in which
+        ## those articles mentioned animal agriculture. That modified CSV file is in the Github repository at
+        ##an-ag/Repeating Faunalytics + Sentient analysis/Categorized articles/Coded articles.csv.
+        ## Download that instead of using line 114—that CSV is needed at line 119.
       
-      ## write_csv(df_an.ag, "Coded articles.csv", col_names = T)
+        ## write_csv(df_an.ag, "Coded articles.csv", col_names = T)
       
     ## Creating data frames from coding articles as mentioning animal agriculture in the
       ## context of being "cause" or suffering a "consequence" or climate change
