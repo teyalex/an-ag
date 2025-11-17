@@ -2,22 +2,19 @@
   # Contact Alex at a.tey@pm.me or the PopSus team at PopSusColab@biologicaldiversity.org.
   # https://biologicaldiversity.org | https://alextey.co | https://github.com/teyalex
 
-  # NOTE: Lines that download files to the user's computer are commented out.
-    # If you do want to save JPGs of the plots and CSVs of some tables, use a CMND-F/CTRL-F find-replace to
-    # replace "# ggsave" with "ggsave" and "# write" with "write".
-
 # setup
 
   rm(list = ls())
   library(tidyverse)
   library(ggtext)
-  setwd("~/Your/file/directory/here")
+  setwd("~/Documents/work/Center/Original analysis")
   
 # styles
   
   # color palettes
   pal3 <- c("#A0E0AB","#ED3125", "#F3DDB1")
   pal2 <- c("#ED3125", "#F3DDB1")
+  
   
   # caption text
   
@@ -120,7 +117,7 @@
     companies %>%
       pivot_wider(names_from = scope,
                   values_from = count) %>%
-      # write.csv("companies.csv")
+      write.csv("companies.csv")
     
   # industries
     
@@ -171,7 +168,7 @@
              diet = count_cli.meat.diet) %>%
       select(industry, sector, cli, meat, diet)
     
-    # write.csv(industries, "industries.csv")
+    write.csv(industries, "industries.csv")
     
     # calculating table of totals by industry sector
     industry_totals <- industries %>%
@@ -249,7 +246,7 @@
       replace(is.na(.), 0)
     
     # downloading table of counts by source
-    # write.csv(sources, "sources.csv")
+    write.csv(sources, "sources.csv")
     
     # calculating percentages by scope for plotting
     source.pcts <- sources %>%
@@ -319,6 +316,14 @@
                   median = median(meat_pct),
                   sd = sd(meat_pct))
     
+    # Fox News vs. average of others
+      
+      source.pcts %>%
+        mutate(is.Fox = case_when(source == "Fox News" ~ "Fox News",
+                               .default = "All others")) %>%
+        group_by(is.Fox, pct_scope) %>%
+        summarize(mean = mean(pct))
+      
 # plotting
       
   # PLOT: comparing scopes
@@ -345,7 +350,7 @@
     
     print(scopes_plot)
     
-    # ggsave("scopes_plot.jpg", plot = scopes_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    ggsave("scopes_plot.jpg", plot = scopes_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
     
   # PLOT: comparing company types
     
@@ -380,7 +385,7 @@
     
     print(companies_plot)
     
-    # ggsave("companies_plot.jpg", plot = companies_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    ggsave("companies_plot.jpg", plot = companies_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
     
   # PLOT: comparing totals by source
     
@@ -408,7 +413,7 @@
     
     print(sources_plot)
     
-    # ggsave("sources_plot.jpg", plot = sources_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    ggsave("sources_plot.jpg", plot = sources_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
     
   # PLOT: comparing mention percentages by source
     
@@ -433,7 +438,7 @@
 
     print(sources.pcts_plot)
     
-    # ggsave("sources.pcts_plot.jpg", plot = sources.pcts_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    ggsave("sources.pcts_plot.jpg", plot = sources.pcts_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
   
   # PLOT: comparing sectors in cli scope
     
@@ -460,17 +465,17 @@
     
     print(industries_plot)
     
-    # ggsave("industries_plot.jpg", plot = industries_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    ggsave("industries_plot.jpg", plot = industries_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
     
   # PLOT: comparing sectors across scopes
     
     industries_2_plot <- ggplot(industries_long, aes(x = reorder(scope, -count), y = reorder(sector, desc(sector)), fill = rel.pct, label = count)) +
       geom_tile() +
       geom_text() +
-      labs(title = "Frequency of sector mentions within each scope",
-           subtitle = str_wrap("Even in the sample of articles that mention animal agriculture, specific agricultural industries
+      labs(title = "Frequency of sector mentions by category",
+           subtitle = str_wrap("Even in the subset of articles that mention animal agriculture, specific agricultural industries
                                are rarely mentioned.", 80),
-           x = "Scope",
+           x = "Category",
            y = "",
            caption = cap,
            fill = "Frequency") +
@@ -484,4 +489,4 @@
     
     print(industries_2_plot)
     
-    # ggsave("industries_2_plot.jpg", plot = industries_2_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    ggsave("industries_2_plot.jpg", plot = industries_2_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
