@@ -358,10 +358,9 @@
       geom_bar(stat = "identity", position = position_dodge(preserve = "single")) +
       coord_flip() +
       labs(title = "Institution types by scope",
-           subtitle = str_wrap("Corporations were mentioned more frequently than other types of institutions
-                               in articles that mentioned meat, but much less frequently in articles that
-                               also mentioned dietary change.",
-                               85),
+           subtitle = str_wrap("Corporations were named more often when an article mentioned meat or dietary change,
+                               but were still invoked less frequently than intergovernmental bodies.",
+                               80),
            caption = cap,
            x = "",
            y = "Frequency",
