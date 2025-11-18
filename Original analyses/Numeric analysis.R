@@ -2,9 +2,9 @@
   # Contact Alex at a.tey@pm.me or the PopSus team at PopSusColab@biologicaldiversity.org.
   # https://biologicaldiversity.org | https://alextey.co | https://github.com/teyalex
 
-# NOTE: Lines that download files to the user's computer are commented out.
-  # If you do want to save JPGs of the plots and CSVs of some tables, use a CMND-F/CTRL-F find-replace to
-  # replace "# ggsave" with "ggsave" and "# write" with "write".
+  # NOTE: Lines that download files to the user's computer are commented out.
+    # If you do want to save JPGs of the plots and a CSV of one table, use a CMND-F/CTRL-F find-replace to
+    # replace "# ggsave" with "ggsave" and "# write" with "write".
 
 # setup
 
@@ -18,6 +18,7 @@
   # color palettes
   pal3 <- c("#A0E0AB","#ED3125", "#F3DDB1")
   pal2 <- c("#ED3125", "#F3DDB1")
+  
   
   # caption text
   
@@ -119,10 +120,8 @@
     
     companies %>%
       pivot_wider(names_from = scope,
-                  values_from = count)
-    
-    # downloading table of counts by company
-    # write.csv(companies, "companies.csv")
+                  values_from = count) %>%
+      # write.csv("companies.csv")
     
   # industries
     
@@ -173,7 +172,6 @@
              diet = count_cli.meat.diet) %>%
       select(industry, sector, cli, meat, diet)
     
-    # downloading table of counts by industry
     # write.csv(industries, "industries.csv")
     
     # calculating table of totals by industry sector
@@ -351,7 +349,7 @@
       scale_fill_manual(values = pal3,
                         breaks = c("cli", "meat", "diet")) +
       scale_x_discrete(breaks = c("cli", "meat", "diet"),
-                       labels = c("All climate stories", "Mentioning meat/animal agriculture", "Mentioning dietary shift")) +
+                       labels = c("All climate stories", "…mentioning meat/animal agriculture", "…mentioning dietary shift")) +
       h.col
     
     print(scopes_plot)
@@ -372,7 +370,7 @@
            y = "Frequency",
            fill = "Search") +
       scale_fill_manual(values = pal3,
-                        labels = c("Climate", "Climate + meat", "Climate + meat + diet")) +
+                        labels = c("All climate articles", "…mentioning meat", "…mentioning diet")) +
       scale_y_continuous(labels = scales::label_percent(),
                          position = "right") +
       theme_minimal() +
@@ -384,7 +382,7 @@
             legend.text = element_text(size = 8, family = "Helvetica"),
             axis.title.x = element_text(size = 10, family = "Oswald"),
             axis.title.y = element_text(size = 10, family = "Oswald"),
-            axis.text.x = element_text(size = 8, family = "Helvetica"),
+            axis.text.x = element_text(size = 6, family = "Helvetica"),
             axis.text.y = element_text(size = 8, family = "Oswald"),
             panel.grid.major.y = element_blank())
     
@@ -412,7 +410,7 @@
            fill = "") +
       scale_fill_manual(values = pal3,
                         breaks = c("a_cli", "b_meat", "c_diet"),
-                        labels = c("All climate articles", "Meat mentions", "Diet mentions")) +
+                        labels = c("All climate articles", "…mentioning meat", "…mentioning diet")) +
       scale_y_continuous(position = "right") +
       v.col
     
@@ -436,7 +434,7 @@
            fill = "") +
       scale_fill_manual(values = pal2,
                         breaks = c("meat_pct", "diet_pct"),
-                        labels = c("Meat mentions", "Diet mentions")) +
+                        labels = c("Articles with animal agriculture/meat", "…with dietary shift")) +
       scale_y_continuous(labels = scales::label_percent(),
                          position = "right") +
       v.col
