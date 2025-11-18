@@ -1,13 +1,17 @@
-# Analysis by Alexandra Tey, a journalist working with the Population and Sustainability team at the Center for Biological Diversity.
+# Analysis by Alexandra Tey, a journalist with the Population and Sustainability team at the Center for Biological Diversity.
   # Contact Alex at a.tey@pm.me or the PopSus team at PopSusColab@biologicaldiversity.org.
   # https://biologicaldiversity.org | https://alextey.co | https://github.com/teyalex
+
+  # NOTE: Lines that download files to the user's computer are commented out.
+    # If you do want to save JPGs of the plots and a CSV of one table, use a CMND-F/CTRL-F find-replace to
+    # replace "# ggsave" with "ggsave" and "# write" with "write".
 
 # setup
 
   rm(list = ls())
   
   # the package `quanteda.sentiment` isn't on CRAN, so install.packages() won't work.
-  # if not already installed, install it like this instead:
+  # if not already installed, remove the "#" characters and install it like this instead:
     # install.packages("remotes")  
     # library(remotes)
       # install_github("quanteda/quanteda.sentiment")
@@ -20,7 +24,7 @@
   library(ggwordcloud)
   library(ggtext)
 
-  setwd("~/Documents/work/Center/Original analysis")
+  setwd("~/Your/file/directory/here")
   
   # styles
   
@@ -271,7 +275,7 @@
         add_row(as.data.frame(top10000[7056:7060,])) %>%    # "vegetarian"
         add_row(as.data.frame(top10000[7377:7381,]))        # "lamb"
     
-      write.csv(rankings, "rankings.csv")
+      # write.csv(rankings, "rankings.csv")
     
 # sentiment analysis (not included in written report)
   
@@ -354,7 +358,7 @@
     
     print(top_plot)
     
-    ggsave("top_plot.jpg", plot = top_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    # ggsave("top_plot.jpg", plot = top_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
   
   # PLOT: word cloud of most frequent words near "meat"
   
@@ -369,7 +373,7 @@
     
     print(kwic.meat_plot)
     
-    ggsave("kwic.meat_plot.jpg", plot = kwic.meat_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    # ggsave("kwic.meat_plot.jpg", plot = kwic.meat_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
     
   # PLOT: word cloud of most frequent words near "agriculture"
     
@@ -384,7 +388,7 @@
     
     print(kwic.ag_plot)
     
-    ggsave("kwic.ag_plot.jpg", plot = kwic.ag_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    # ggsave("kwic.ag_plot.jpg", plot = kwic.ag_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
   
   # PLOT: sentiment analysis across scopes (not included in written report)
     
@@ -403,7 +407,7 @@
     
     print(sent_plot)
     
-    ggsave("sent_plot.jpg", plot = sent_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    # ggsave("sent_plot.jpg", plot = sent_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
     
   # PLOT: coverage of each scope over time
     
@@ -435,4 +439,4 @@
     
     print(months_plot)
     
-    ggsave("months_plot.jpg", plot = months_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    # ggsave("months_plot.jpg", plot = months_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)

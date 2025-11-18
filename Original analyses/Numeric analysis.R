@@ -1,20 +1,23 @@
-# Analysis by Alexandra Tey, a journalist with the Population and Sustainability team at the Center for Biological Diversity.
+# Analysis by Alexandra Tey, a journalist working with the Population and Sustainability team at the Center for Biological Diversity.
   # Contact Alex at a.tey@pm.me or the PopSus team at PopSusColab@biologicaldiversity.org.
   # https://biologicaldiversity.org | https://alextey.co | https://github.com/teyalex
+
+# NOTE: Lines that download files to the user's computer are commented out.
+  # If you do want to save JPGs of the plots and CSVs of some tables, use a CMND-F/CTRL-F find-replace to
+  # replace "# ggsave" with "ggsave" and "# write" with "write".
 
 # setup
 
   rm(list = ls())
   library(tidyverse)
   library(ggtext)
-  setwd("~/Documents/work/Center/Original analysis")
+  setwd("~/Your/file/directory/here")
   
 # styles
   
   # color palettes
   pal3 <- c("#A0E0AB","#ED3125", "#F3DDB1")
   pal2 <- c("#ED3125", "#F3DDB1")
-  
   
   # caption text
   
@@ -116,8 +119,10 @@
     
     companies %>%
       pivot_wider(names_from = scope,
-                  values_from = count) %>%
-      write.csv("companies.csv")
+                  values_from = count)
+    
+    # downloading table of counts by company
+    # write.csv(companies, "companies.csv")
     
   # industries
     
@@ -168,7 +173,8 @@
              diet = count_cli.meat.diet) %>%
       select(industry, sector, cli, meat, diet)
     
-    write.csv(industries, "industries.csv")
+    # downloading table of counts by industry
+    # write.csv(industries, "industries.csv")
     
     # calculating table of totals by industry sector
     industry_totals <- industries %>%
@@ -246,7 +252,7 @@
       replace(is.na(.), 0)
     
     # downloading table of counts by source
-    write.csv(sources, "sources.csv")
+    # write.csv(sources, "sources.csv")
     
     # calculating percentages by scope for plotting
     source.pcts <- sources %>%
@@ -290,10 +296,10 @@
     # proportion of climate stories that mention meat or animal agriculture
     scopes$total[scopes$scope == "meat"] / scopes$total[scopes$scope == "cli"]
     
-    # proportion of climate stories that mention dietary change
+    # proportion of climate stories that mention dietary shift
     scopes$total[scopes$scope == "diet"] / scopes$total[scopes$scope == "cli"]
     
-    # proportion of meat stories that mention dietary change
+    # proportion of meat stories that mention dietary shift
     scopes$total[scopes$scope == "diet"] / scopes$total[scopes$scope == "meat"]
   
   # sources
@@ -335,9 +341,9 @@
                 hjust = "center",
                 size = 4,
                 family = "Oswald") +
-      labs(title = "Climate coverage neglects animal agriculture and dietary change",
+      labs(title = "Climate coverage neglects animal agriculture and dietary shift",
            subtitle = str_wrap("In  sample of 10,696 climate change articles, 343 mentioned meat and animal agriculture,
-                               and 115 mentioned dietary change.",
+                               and 115 mentioned dietary shift.",
                                80),
            caption = cap,
            x = "",
@@ -345,26 +351,26 @@
       scale_fill_manual(values = pal3,
                         breaks = c("cli", "meat", "diet")) +
       scale_x_discrete(breaks = c("cli", "meat", "diet"),
-                       labels = c("All climate stories", "Mentioning meat/animal agriculture", "Mentioning dietary change")) +
+                       labels = c("All climate stories", "Mentioning meat/animal agriculture", "Mentioning dietary shift")) +
       h.col
     
     print(scopes_plot)
     
-    ggsave("scopes_plot.jpg", plot = scopes_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    # ggsave("scopes_plot.jpg", plot = scopes_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
     
   # PLOT: comparing company types
     
     companies_plot <- ggplot(companies_pct[which(companies_pct$pct > 0),], aes(x = reorder(type, pct), y = pct, fill = reorder(scope, pct))) +
       geom_bar(stat = "identity", position = position_dodge(preserve = "single")) +
       coord_flip() +
-      labs(title = "Institution types by scope",
-           subtitle = str_wrap("Corporations were named more often when an article mentioned meat or dietary change,
+      labs(title = "Institution types by search parameter",
+           subtitle = str_wrap("Corporations were named more often when an article mentioned meat or dietary shift,
                                but were still invoked less frequently than intergovernmental bodies.",
                                80),
            caption = cap,
            x = "",
            y = "Frequency",
-           fill = "Scope") +
+           fill = "Search") +
       scale_fill_manual(values = pal3,
                         labels = c("Climate", "Climate + meat", "Climate + meat + diet")) +
       scale_y_continuous(labels = scales::label_percent(),
@@ -384,7 +390,7 @@
     
     print(companies_plot)
     
-    ggsave("companies_plot.jpg", plot = companies_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    # ggsave("companies_plot.jpg", plot = companies_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
     
   # PLOT: comparing totals by source
     
@@ -399,7 +405,7 @@
       geom_col(position = position_dodge(preserve = "single", reverse = T)) +
       coord_flip() +
       labs(title = "Rates of coverage by outlet",
-           subtitle = str_wrap("All publications infrequently mentioned meat or animal agriculture and dietary change in their climate coverage.", 75),
+           subtitle = str_wrap("All publications infrequently mentioned meat or animal agriculture and dietary shift in their climate coverage.", 75),
            caption = cap,
            x = "",
            y = "Number of articles",
@@ -412,7 +418,7 @@
     
     print(sources_plot)
     
-    ggsave("sources_plot.jpg", plot = sources_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    # ggsave("sources_plot.jpg", plot = sources_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
     
   # PLOT: comparing mention percentages by source
     
@@ -437,7 +443,7 @@
 
     print(sources.pcts_plot)
     
-    ggsave("sources.pcts_plot.jpg", plot = sources.pcts_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    # ggsave("sources.pcts_plot.jpg", plot = sources.pcts_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
   
   # PLOT: comparing sectors in cli scope
     
@@ -464,7 +470,7 @@
     
     print(industries_plot)
     
-    ggsave("industries_plot.jpg", plot = industries_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    # ggsave("industries_plot.jpg", plot = industries_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
     
   # PLOT: comparing sectors across scopes
     
@@ -479,7 +485,7 @@
            caption = cap,
            fill = "Frequency") +
       scale_x_discrete(breaks = c("cli", "meat", "diet"),
-                       labels = c("Climate (10,696 articles)", "Meat (343)", "Diet change (115)"),
+                       labels = c("Climate (10,696 articles)", "Meat (343)", "Dietary shift (115)"),
                        position = "top") +
       scale_fill_gradientn(colors = c("#FFFFFF", "#FAF1E0", "#ED3125"),
                            values = scales::rescale(c(0, 0.003, max(industries_long$count))),
@@ -488,4 +494,4 @@
     
     print(industries_2_plot)
     
-    ggsave("industries_2_plot.jpg", plot = industries_2_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
+    # ggsave("industries_2_plot.jpg", plot = industries_2_plot, width = 6.5, height = 5.2, units = "in", dpi = 320)
