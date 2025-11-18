@@ -1,4 +1,4 @@
-# Analysis by Alexandra Tey, a journalist with the Population and Sustainability team at the Center for Biological Diversity.
+# Analysis by Alexandra Tey, a journalist working with the Population and Sustainability team at the Center for Biological Diversity.
   # Contact Alex at a.tey@pm.me or the PopSus team at PopSusColab@biologicaldiversity.org.
   # https://biologicaldiversity.org | https://alextey.co | https://github.com/teyalex
 
