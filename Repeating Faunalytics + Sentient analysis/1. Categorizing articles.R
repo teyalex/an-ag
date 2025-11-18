@@ -1,4 +1,4 @@
-## This code was adapted by Alexandra Tey with the Center for Biological Diversity
+## This code was adapted by Alexandra Tey, a journalist working with the Center for Biological Diversity,
   ## from code published by Faunalytics in collaboration with Sentient Media.
 
 ## View the original code and analysis here: https://osf.io/xmwgz/files/osfstorage.
