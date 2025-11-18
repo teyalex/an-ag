@@ -1,4 +1,4 @@
-## This code was adapted by Alexandra Tey, a journalist with the Center for Biological Diversity,
+## This code was adapted by Alexandra Tey, a journalist working with the Center for Biological Diversity,
   ## from code published by Faunalytics and Sentient Media.
 
 ## Sections in the original Faunalytics version are labeled with comments set off by a single octothorpe (#).
