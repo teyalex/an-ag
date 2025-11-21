@@ -340,7 +340,7 @@
                 size = 4,
                 family = "Oswald") +
       labs(title = "Climate coverage neglects animal agriculture and dietary shift",
-           subtitle = str_wrap("In  sample of 10,696 climate change articles, 343 mentioned meat and animal agriculture,
+           subtitle = str_wrap("In a sample of 10,696 climate change articles, 343 mentioned meat and animal agriculture,
                                and 115 mentioned dietary shift.",
                                80),
            caption = cap,
