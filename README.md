@@ -1,6 +1,8 @@
 # an-ag
 *A quantitative landscape analysis of news media coverage at the intersection of climate change and animal agriculture. Created by me, [Alexandra Tey](https://alextey.co/), for the [Center for Biological Diversity](https://biologicaldiversity.org) and [Brighter Green](https://brightergreen.org).*
 
+*[press release](https://biologicaldiversity.org/w/news/analysis-sustainable-diets-missing-from-nearly-99-of-climate-media-coverage-2025-11-24/) | [report (PDF, 5.18 MB)](https://www.biologicaldiversity.org/programs/population_and_sustainability/pdfs/2025-media-landscape-analysis.pdf)
+
 For our original analyses in the folder `Original analyses`, we queried the Factiva search engine with the queries in `Factiva query text.sql` (not actually SQL), then downloaded CSVs (provided in the subfolder `Exported Factiva statistics`). `Numeric analysis.R` uses those statistics, while `Textual analysis.R` uses text files we downloaded from Factiva (not provided). They run independently of one another. Certain tables produced in our analysis are provided in the subfolder `tables`.
 
 In the folder `Repeating Faunalytics + Sentient analysis`, we repeated portions of [an analysis published in 2023](https://osf.io/xmwgz/files/osfstorage) by Sentient Media and Faunalytics. We ran `1. Categorizing articles.R` on articles downloaded from Factiva (not provided) to produce CSV files (provided in the subfolder `Categorized articles`) that were used for the analysis in `2. Faunalytics + Sentient analysis.R`. Another CSV file we created for that analysis, `Coded articles.csv`, is also provided in `Categorized articles`.
